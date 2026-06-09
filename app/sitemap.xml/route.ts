@@ -4,6 +4,7 @@ const BLOG_SLUGS = [
   "best-hr-software-2026-comparison",
     "top-hris-platforms-2026",
     "payroll-software-comparison-2026",
+    "hr-software-buyers-guide-2026-bamboohr-vs-workday-vs-gusto-vs-rippling",
 ] as const;
 
 const TOOL_SLUGS = [
