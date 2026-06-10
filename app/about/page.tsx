@@ -1,95 +1,104 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "About — HR Tools Nav",
   description:
-    "HR Tools Nav is an independent directory of human resources software. Built by Bison Layer, a boutique software studio in Florence, Italy.",
+    "HR Tools Nav is an independent directory of human resources software, built by Bison Layer in Florence, Italy. We help HR leaders find the right tools for their teams.",
 };
-
-const TEAM = [
-  {
-    name: "Elise Smit",
-    role: "Founder & CEO",
-    bio: "Elise founded Bison Layer in 2016 after a decade leading HR technology projects at European enterprises. She started HR Tools Nav to help HR leaders cut through the noise and find software that actually works for their teams.",
-  },
-  {
-    name: "Giovanni Giordano",
-    role: "Co-Founder & CTO",
-    bio: "Giovanni brings deep experience in building scalable SaaS platforms. He leads the technical development of HR Tools Nav, focusing on data accuracy, search performance, and a clean user experience.",
-  },
-  {
-    name: "David Quinn",
-    role: "Technical Lead",
-    bio: "David oversees data integration and quality assurance. He ensures every tool listing is verified against official sources and that our comparison data stays current as products evolve.",
-  },
-  {
-    name: "Henry O'Sullivan",
-    role: "QA Engineer",
-    bio: "Henry is responsible for reviewing each HR platform on the site. He tests user workflows, verifies pricing claims, and reads through hundreds of user reviews to compile honest pros and cons.",
-  },
-];
 
 export default function AboutPage() {
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+    <div className="max-w-3xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      {/* Hero Quote */}
       <section className="mb-16">
-        <h1 className="text-3xl sm:text-4xl font-bold text-stone-900 mb-6">
-          About HR Tools Nav
-        </h1>
-        <div className="prose prose-stone max-w-none">
-          <p className="text-lg text-stone-600 leading-relaxed mb-4">
-            HR Tools Nav was built to solve a simple problem: there&apos;s too much noise in the HR software
-            market. Every vendor claims to be the best. Every review site seems to favor whoever pays them most.
-          </p>
-          <p className="text-stone-600 leading-relaxed mb-4">
-            We take a different approach. <strong>HR Tools Nav</strong> is maintained by <strong>Bison Layer</strong>,
-            a small software studio based in <strong>Florence, Italy</strong>. We don&apos;t accept payment for listings,
-            we don&apos;t inflate ratings, and we don&apos;t play favorites.
-          </p>
-          <p className="text-stone-600 leading-relaxed mb-4">
-            Every tool on this site is evaluated the same way: we look at feature depth, pricing transparency,
-            real user satisfaction (from G2, Capterra, and TrustRadius), and how well the product delivers on
-            its promises. If a tool is overhyped and underdelivers, we say so.
-          </p>
-          <p className="text-stone-600 leading-relaxed">
-            Whether you&apos;re a startup setting up your first payroll system or an enterprise rolling out a
-            global HRIS, our goal is to help you make an informed decision — not the most marketed one.
-          </p>
-        </div>
-      </section>
-
-      <section className="mb-16">
-        <h2 className="text-2xl font-bold text-stone-900 mb-8">Our Team</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          {TEAM.map((member) => (
-            <div key={member.name} className="bg-white border border-stone-200 rounded-xl p-6">
-              <div className="w-12 h-12 rounded-full bg-gradient-to-br from-orange-100 to-amber-100 flex items-center justify-center mb-4">
-                <span className="text-lg font-bold text-orange-600">
-                  {member.name.split(" ").map((n) => n[0]).join("")}
-                </span>
-              </div>
-              <h3 className="font-semibold text-stone-900">{member.name}</h3>
-              <p className="text-sm text-orange-600 font-medium mb-3">{member.role}</p>
-              <p className="text-sm text-stone-500 leading-relaxed">{member.bio}</p>
+        <div className="bg-white border border-stone-200 rounded-2xl p-8 sm:p-10">
+          <blockquote className="text-xl sm:text-2xl text-stone-700 leading-relaxed font-medium mb-6">
+            &ldquo;The HR software market is flooded with products that all claim to be the best.
+            Our job is to cut through the marketing and tell you what actually works.&rdquo;
+          </blockquote>
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-orange-100 to-amber-100 flex items-center justify-center">
+              <span className="text-sm font-bold text-orange-600">ES</span>
             </div>
-          ))}
+            <div>
+              <p className="font-semibold text-stone-900 text-sm">Elise Smit</p>
+              <p className="text-xs text-stone-500">Founder, HR Tools Nav — Bison Layer</p>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section className="bg-gradient-to-r from-orange-50 to-amber-50 border border-orange-200 rounded-xl p-8">
-        <h2 className="text-xl font-bold text-stone-900 mb-3">
-          Built by Bison Layer
-        </h2>
-        <p className="text-stone-600 text-sm leading-relaxed mb-4">
-          HR Tools Nav is a project by <strong>Bison Layer</strong>, a boutique software studio in
-          Florence, Italy. Founded in 2016, our team of 5 specializes in building mobile apps and SaaS
-          platforms with a focus on user experience and data integrity.
+      {/* Story - single narrative, no team grid */}
+      <section className="mb-12">
+        <h1 className="text-3xl sm:text-4xl font-bold text-stone-900 mb-6">Why I Built This</h1>
+        <div className="space-y-4 text-stone-600 leading-relaxed">
+          <p>
+            I spent eight years leading HR technology projects at companies across Europe. From
+            startups scrambling to set up their first payroll system to enterprises rolling out
+            global HRIS platforms — I&apos;ve been on both sides of the table.
+          </p>
+          <p>
+            What I learned is that most HR software reviews are either shallow listicles or
+            affiliate-driven content designed to push you toward one product. There&apos;s very
+            little that&apos;s genuinely independent.
+          </p>
+          <p>
+            So in 2024, I started HR Tools Nav with a simple premise: evaluate every HR platform
+            the same way. No preferred partners. No sponsored rankings. Just feature depth,
+            pricing transparency, and real user feedback — sourced from G2, Capterra, and
+            TrustRadius.
+          </p>
+          <p>
+            Today, the site covers payroll, HRIS, recruitment, performance management, and
+            engagement tools. Every listing is reviewed by at least two members of our team
+            before it goes live.
+          </p>
+        </div>
+      </section>
+
+      {/* The Team — minimal, not card grid */}
+      <section className="mb-12 border-t border-stone-200 pt-10">
+        <h2 className="text-2xl font-bold text-stone-900 mb-4">The Team Behind It</h2>
+        <p className="text-stone-600 mb-6">
+          HR Tools Nav is maintained by four people at <strong>Bison Layer</strong>, a software
+          studio in Florence, Italy. We&apos;ve been building SaaS products since 2016.
         </p>
-        <div className="flex items-center gap-4 text-sm text-stone-500">
+        <div className="space-y-5">
+          <div className="border-l-4 border-orange-400 pl-4">
+            <p className="font-semibold text-stone-900">Elise Smit</p>
+            <p className="text-sm text-orange-600 mb-1">Founder & CEO</p>
+            <p className="text-sm text-stone-500">Oversees product direction, reviews every tool listing, and writes our comparison guides.</p>
+          </div>
+          <div className="border-l-4 border-amber-400 pl-4">
+            <p className="font-semibold text-stone-900">Giovanni Giordano</p>
+            <p className="text-sm text-amber-600 mb-1">Co-Founder & CTO</p>
+            <p className="text-sm text-stone-500">Builds and maintains the platform. Ensures data accuracy and performance.</p>
+          </div>
+          <div className="border-l-4 border-rose-400 pl-4">
+            <p className="font-semibold text-stone-900">David Quinn</p>
+            <p className="text-sm text-rose-600 mb-1">Technical Lead</p>
+            <p className="text-sm text-stone-500">Verifies pricing claims, tests integrations, and fact-checks product documentation.</p>
+          </div>
+          <div className="border-l-4 border-emerald-400 pl-4">
+            <p className="font-semibold text-stone-900">Henry O&apos;Sullivan</p>
+            <p className="text-sm text-emerald-600 mb-1">QA Engineer</p>
+            <p className="text-sm text-stone-500">Reviews user feedback across platforms and compiles honest pros and cons for each tool.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Studio — compact */}
+      <section className="border-t border-stone-200 pt-10">
+        <h2 className="text-2xl font-bold text-stone-900 mb-3">Bison Layer</h2>
+        <p className="text-stone-600 text-sm mb-4">
+          Founded in Florence, Italy in 2016. Team of 5. We build mobile apps and SaaS platforms
+          with a focus on data integrity and user experience.
+        </p>
+        <div className="flex flex-wrap gap-4 text-sm text-stone-500">
           <span>📍 Florence, Italy</span>
           <span>📅 Founded 2016</span>
           <span>👥 Team of 5</span>
+          <span>🔧 Mobile Apps & SaaS</span>
         </div>
       </section>
     </div>
