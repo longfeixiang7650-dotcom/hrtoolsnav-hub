@@ -37,11 +37,11 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-bold text-stone-900 mb-3">2. Description of Service</h2>
             <p>
-              HR Tools Nav is a curated directory platform that provides information,
-              comparisons, reviews, and pricing details about business-to-business software-as-a-
-              service tools. Our platform serves as a research and discovery resource. We do not
-              sell, license, or distribute the software products listed on our Site unless
-              explicitly stated otherwise.
+HRToolsNav is a curated directory platform that provides information,
+              comparisons, and reviews of human resources software, payroll
+              platforms, and workforce management tools. Our platform serves as a
+              research and discovery resource. We do not sell, license, or distribute
+              the software products listed on our Site unless explicitly stated otherwise.
             </p>
           </section>
 
