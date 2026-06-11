@@ -5,27 +5,27 @@ import { Search, Star, ArrowUpRight, ChevronRight, Building2, Briefcase, HeartHa
 import Link from "next/link";
 
 const TOOLS = [
-  { id: "bamboohr", name: "BambooHR", category: "HRIS", rating: 4.6, reviews: 8500, description: "All-in-one HR platform for mid-sized companies. Employee lifecycle management from hire to retire." },
-  { id: "workday", name: "Workday", category: "HRIS", rating: 4.3, reviews: 12000, description: "Enterprise-grade HCM platform with AI-powered workforce planning and global compliance." },
-  { id: "gusto", name: "Gusto", category: "Payroll", rating: 4.5, reviews: 20000, description: "Modern payroll, benefits, and HR for small businesses. Automated tax filings included." },
-  { id: "rippling", name: "Rippling", category: "HRIS", rating: 4.5, reviews: 4200, description: "Unified HR + IT platform. Manage payroll, devices, apps, and compliance in one place." },
-  { id: "hibob", name: "HiBob", category: "HRIS", rating: 4.5, reviews: 1800, description: "People-first HR platform with strong engagement tools and culture analytics." },
-  { id: "personio", name: "Personio", category: "HRIS", rating: 4.4, reviews: 2100, description: "Leading European HRIS for SMEs with strong GDPR compliance." },
-  { id: "adp", name: "ADP Workforce Now", category: "Payroll", rating: 4.2, reviews: 15000, description: "Comprehensive payroll and HR for mid-to-large enterprises. Multi-state compliance." },
-  { id: "paychex", name: "Paychex Flex", category: "Payroll", rating: 4.1, reviews: 8500, description: "Full-service payroll with PEO options. Ideal for growing businesses." },
-  { id: "lever", name: "Lever", category: "Recruitment", rating: 4.4, reviews: 1600, description: "Applicant tracking system with built-in CRM and collaborative hiring tools." },
-  { id: "greenhouse", name: "Greenhouse", category: "Recruitment", rating: 4.4, reviews: 4200, description: "Structured hiring platform used by leading tech companies for data-driven recruitment." },
-  { id: "lattice", name: "Lattice", category: "Performance", rating: 4.5, reviews: 3800, description: "Performance management platform with continuous feedback, reviews, and OKR tracking." },
-  { id: "culture-amp", name: "Culture Amp", category: "Engagement", rating: 4.4, reviews: 2500, description: "People analytics platform for employee engagement surveys and performance insights." },
+  { id: "bamboohr", name: "BambooHR", category: "HRIS", rating: 4.6, reviews: 3247, description: "Cloud-based HRIS for SMBs with intuitive employee management, onboarding, and performance tools." },
+  { id: "workday", name: "Workday", category: "HRIS", rating: 4.4, reviews: 4821, description: "Enterprise-grade cloud HCM platform unifying HR, finance, planning, and analytics." },
+  { id: "gusto", name: "Gusto", category: "Payroll", rating: 4.5, reviews: 2984, description: "All-in-one payroll, benefits, and HR platform built for U.S.-based SMBs and startups." },
+  { id: "rippling", name: "Rippling", category: "HRIS", rating: 4.3, reviews: 1876, description: "Unified HR, IT, and finance platform automating employee lifecycle from hire to retire." },
+  { id: "lever", name: "Lever", category: "Recruiting and ATS", rating: 4.6, reviews: 1247, description: "Modern, collaborative recruiting platform built for speed, scalability, and candidate experience." },
+  { id: "greenhouse", name: "Greenhouse", category: "Recruiting and ATS", rating: 4.5, reviews: 2193, description: "Enterprise-grade ATS focused on structured, data-driven hiring with strong DEIB support." },
+  { id: "workable", name: "Workable", category: "Recruiting and ATS", rating: 4.3, reviews: 1856, description: "User-friendly, all-in-one recruiting platform ideal for SMBs and fast-growing startups." },
+  { id: "smartrecruiters", name: "SmartRecruiters", category: "Recruiting and ATS", rating: 4.4, reviews: 1622, description: "Global, scalable talent acquisition suite combining ATS, CRM, and marketing tools." },
+  { id: "lattice", name: "Lattice", category: "Performance Management", rating: 4.6, reviews: 1247, description: "Modern performance management platform for continuous feedback, goal tracking, and development." },
+  { id: "15five", name: "15Five", category: "Performance Management", rating: 4.5, reviews: 2134, description: "Performance management platform built around weekly check-ins, continuous feedback, and coaching." },
+  { id: "culture-amp", name: "Culture Amp", category: "Performance Management", rating: 4.4, reviews: 3128, description: "People & performance platform combining engagement, performance, and development analytics." },
+  { id: "betterworks", name: "BetterWorks", category: "Performance Management", rating: 4.3, reviews: 892, description: "AI-powered performance platform focused on strategic alignment and measurable outcomes." },
 ];
 
-const CATEGORIES = ["All", "HRIS", "Payroll", "Recruitment", "Performance", "Engagement"];
+const CATEGORIES = ["All", "HRIS", "HRIS and HRMS", "Payroll", "Recruiting and ATS", "Performance Management"];
 
 const HIGHLIGHTS = [
-  { icon: Building2, label: "HRIS Platforms", count: 8, color: "bg-orange-100 text-orange-600" },
-  { icon: Briefcase, label: "Payroll Solutions", count: 6, color: "bg-amber-100 text-amber-600" },
-  { icon: HeartHandshake, label: "Recruitment Tools", count: 5, color: "bg-rose-100 text-rose-600" },
-  { icon: TrendingUp, label: "Performance & Engagement", count: 6, color: "bg-emerald-100 text-emerald-600" },
+  { icon: Building2, label: "HRIS and HRMS", count: 4, color: "bg-orange-100 text-orange-600" },
+  { icon: Briefcase, label: "Recruiting and ATS", count: 4, color: "bg-amber-100 text-amber-600" },
+  { icon: HeartHandshake, label: "Performance Management", count: 4, color: "bg-rose-100 text-rose-600" },
+  { icon: TrendingUp, label: "More HR Tools", count: 19, color: "bg-emerald-100 text-emerald-600" },
 ];
 
 const BLOG_HIGHLIGHTS = [
@@ -56,7 +56,7 @@ export default function HomePage() {
           <div className="max-w-3xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-orange-50 border border-orange-200 mb-6">
               <span className="w-1.5 h-1.5 rounded-full bg-orange-500" />
-              <span className="text-sm font-medium text-orange-700">69+ HR Tools Reviewed</span>
+              <span className="text-sm font-medium text-orange-700">{TOOLS.length}+ HR Tools Reviewed</span>
               <span className="text-stone-300 mx-1">|</span>
               <span className="text-sm font-medium text-stone-500">Updated June 2026</span>
             </div>
