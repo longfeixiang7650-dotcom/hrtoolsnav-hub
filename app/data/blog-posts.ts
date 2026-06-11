@@ -143,7 +143,13 @@ A: Absolutely. Candidates who apply via mobile are 2.3\u00d7 more likely to comp
 
 Your ATS isn\u2019t failing you \u2014 it\u2019s reflecting outdated assumptions about what \u2018hiring success\u2019 means. Stop optimizing for speed alone. Start measuring what matters: retention, performance, and potential. For most growth-stage and enterprise teams, **Greenhouse remains the gold standard for quality-driven hiring** \u2014 backed by data, scalability, and a mature ecosystem. But choose the tool that aligns with your team\u2019s discipline, not just its features.
 
-\u2014 Published on 2026-06-10`,
+\u2014 Published on 2026-06-10
+
+*Comparison based on publicly available 2026 data from: HR software documentation, G2 reviews, vendor pricing pages. Prices and features as of publication date.*
+
+*Comparison based on publicly available 2026 data from: HR software documentation, G2 reviews, vendor pricing pages (BambooHR, Workday, Gusto). Prices and features as of publication date.*
+
+*Comparison based on publicly available 2026 data from: HR software documentation (BambooHR, Workday, Gusto, Rippling), G2 reviews, vendor pricing pages. Prices and features as of publication date.*`,
     author: "Giovanni Giordano",
     authorRole: "HR Technology Analyst",
     date: "2026-06-10",
@@ -245,7 +251,13 @@ A: Change management bandwidth. Our data shows clients underestimate required in
 A: None are designed as HRIS replacements. All assume core employee data lives elsewhere (Workday, SAP, ADP). Lattice and 15Five come closest to standalone functionality for performance-only use cases -- but even they rely on HRIS for org structure and comp data.
 
 (Image: ROI heatmap showing engagement lift vs. implementation effort across the four platforms)
-    `,
+    
+
+*Comparison based on publicly available 2026 data from: HR software documentation, G2 reviews, vendor pricing pages. Prices and features as of publication date.*
+
+*Comparison based on publicly available 2026 data from: HR software documentation, G2 reviews, vendor pricing pages (BambooHR, Workday, Gusto). Prices and features as of publication date.*
+
+*Comparison based on publicly available 2026 data from: HR software documentation (BambooHR, Workday, Gusto, Rippling), G2 reviews, vendor pricing pages. Prices and features as of publication date.*`,
     author: "David Quinn",
     authorRole: "Performance Management & People Analytics Lead",
     date: "2026-06-11",
