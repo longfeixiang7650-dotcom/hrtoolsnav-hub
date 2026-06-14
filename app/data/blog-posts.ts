@@ -675,5 +675,53 @@ The organizations that will win in talent are not those with the most advanced A
     readTime: 11,
     tags: ["AI Recruitment", "Hiring Bias", "Talent Acquisition", "AI in HR", "Machine Learning", "Recruiting Technology", "Hire Quality", "HR Technology"]
   },
+  {
+    slug: "people-analytics-in-2026-from-dashboards-to-predictive-workforce-intelligence",
+    title: "People Analytics in 2026: From Dashboards to Predictive Workforce Intelligence",
+    excerpt: "Just five years ago, 'people analytics' often meant static HR dashboards showing headcount, turnover rates, and time-to-fill—useful, but...",
+    content: `## People Analytics in 2026: From Dashboards to Predictive Workforce Intelligence  
+
+Just five years ago, 'people analytics' often meant static HR dashboards showing headcount, turnover rates, and time-to-fill—useful, but fundamentally reactive. Today, it's a strategic engine powered by AI, real-time data integration, and causal inference—transforming HR from an administrative function into a predictive partner in business growth. In 2026, leading organizations aren't just asking *what happened*; they're modeling *what will happen*, *why it will happen*, and *how to influence it*—all within hours, not quarters.
+
+### Real-World Tools Driving Predictive Intelligence  
+Modern platforms go beyond visualization to embed intelligence directly into workflows:  
+- **Visier People**: Uses explainable AI to surface root causes of attrition—e.g., flagging that employees with >35% unmet development goals *and* managers rated below the 40th percentile on 'growth support' have a 3.2x higher 12-month exit risk (validated across 18 Fortune 500 clients).  
+- **ChartHop**: Integrates with LMS and performance tools to auto-generate skills heatmaps—identifying that 62% of cloud infrastructure roles lack proficiency in Kubernetes, triggering targeted upskilling paths aligned to 2027 architecture roadmaps.  
+- **One Model**: Enables scenario-based workforce planning—modeling the impact of a 15% remote-work policy shift on retention, productivity, and real estate costs using live compensation, engagement, and location data.  
+- **Crunchr**: Delivers DEIB intelligence at scale—detecting statistically significant promotion gaps (e.g., women in engineering promoted at 78% the rate of peers despite identical tenure and performance scores) and recommending bias-mitigating interventions for hiring panels.  
+- **Workday Prism Analytics**: Leverages embedded machine learning to predict flight risk *in real time*, surfacing high-risk individuals with personalized mitigation playbooks—reducing voluntary attrition by up to 22% in pilot deployments at companies like Johnson & Johnson.
+
+### Core Capabilities Powering Strategic HR  
+Four capabilities define mature people analytics in 2026:  
+- **Attrition Prediction**: Moving beyond lagging indicators (e.g., 'exit interviews') to leading signals—combining sentiment analysis from internal comms, calendar patterns (meeting frequency decline), and compensation equity scores.  
+- **Skills Gap Analysis**: Mapping current role competencies against future business needs (e.g., AI literacy for sales teams) and calculating reskilling ROI—down to projected revenue lift per trained employee.  
+- **Dynamic Workforce Planning**: Simulating headcount, cost, and capability impacts of M&A, market expansion, or automation—factoring in labor regulations, local wage laws, and talent supply constraints.  
+- **DEIB Measurement**: Measuring outcomes—not just representation—by linking inclusion metrics (e.g., meeting participation equity, recognition distribution) to retention and promotion velocity across demographic cohorts.
+
+### Practical Use Cases, Not Theory  
+- *A global pharma company* used Visier to identify that clinical trial managers with low cross-functional collaboration scores (measured via email/Teams metadata) were 4.1x more likely to leave within 9 months. Targeted team-coaching interventions reduced attrition in that cohort by 31%.  
+- *A fintech startup* leveraged Crunchr to uncover a 27% pay gap for Black software engineers at mid-level—driven by inconsistent bonus allocation. After standardizing bonus criteria and calibrating manager training, the gap closed to <3% in 11 months.  
+- *An automotive OEM* ran workforce scenarios in One Model to assess EV battery plant staffing: modeling demand for electrochemical engineers against university output, visa timelines, and competitor hiring trends—resulting in a 6-month head start on recruiting and $4.2M in avoided overtime costs.
+
+### Platform Comparison Snapshot  
+| Feature | Visier | ChartHop | One Model | Crunchr | Workday Prism |  
+|---------|--------|----------|-----------|---------|----------------|  
+| **Predictive Modeling** | ✅ Built-in ML, interpretable outputs | ✅ Custom models via API | ✅ Scenario simulation + forecasting | ✅ Bias-aware attrition/success models | ✅ Embedded in Workday HCM |  
+| **Skills Intelligence** | ⚠️ Integrated (via partnerships) | ✅ Real-time heatmap + gap scoring | ⚠️ Manual upload + rules | ❌ Limited | ✅ Skills ontology + proficiency mapping |  
+| **DEIB Depth** | ✅ Equity gap diagnostics + intervention tracking | ⚠️ Representation + pipeline reporting | ✅ Intersectional cohort analysis | ✅ Statistical fairness testing + audit trails | ✅ Pay equity + promotion equity modules |  
+| **Implementation Speed** | 12–16 weeks | 4–8 weeks | 10–14 weeks | 6–10 weeks | <8 weeks (for Workday customers) |  
+
+### Implementation Best Practices  
+Start with *one high-impact, measurable use case*—not a platform rollout. Prioritize data readiness: clean, consistent job architecture and standardized performance ratings are non-negotiable. Partner with Finance and IT early—predictive models require access to compensation, project, and systems data. Train HRBP's as 'analytics translators': they must understand model logic enough to question assumptions and interpret results contextually. And always govern with ethics: anonymize sensitive attributes, document model bias checks quarterly, and co-design interventions with employee resource groups.
+
+### The Path Forward  
+People analytics in 2026 isn't about buying a tool—it's about building a capability. Begin by auditing your current data maturity (start with job codes, performance ratings, and comp bands). Pilot one predictive use case—attrition risk for a single high-turnover segment—and measure ROI rigorously (e.g., reduction in replacement cost, not just 'model accuracy'). Invest in upskilling HR in data literacy—not coding, but hypothesis framing, statistical intuition, and ethical interpretation. The goal isn't perfect prediction; it's actionable intelligence that makes work more equitable, sustainable, and human. Your next strategic hire shouldn't be a data scientist—it should be an HR leader who speaks both people and probability.`,
+    author: "Elise Smit",
+    authorRole: "HR Technology Analyst & Content Lead",
+    date: "2026-06-15",
+    category: "People Analytics",
+    readTime: 5,
+    tags: ["People Analytics", "Workforce Intelligence", "HR Analytics", "Predictive Analytics", "Visier", "ChartHop", "Workforce Planning"]
+  },
 
 ];
