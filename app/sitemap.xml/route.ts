@@ -8,7 +8,13 @@ const BLOG_SLUGS = [
     "hr-software-buyers-guide-2026-bamboohr-vs-workday-vs-gusto-vs-rippling",
     "why-your-ats-isnt-delivering-quality-hires",
     "lattice-vs-15five-vs-culture-amp-vs-betterworks-2026",
+    "build-integrated-performance-management-stack-2026",
     "employee-performance-management-tools-2026",
+    "ai-in-recruitment-reducing-bias-improving-hire-quality-2026",
+    "people-analytics-in-2026-from-dashboards-to-predictive-workforce-intelligence",
+    "employee-wellbeing-mental-health-2026",
+    "employee-engagement-software-2026-comparison",
+    "learning-and-development-platforms-2026-comparison",
 ] as const;
 
 const TOOL_SLUGS = [
