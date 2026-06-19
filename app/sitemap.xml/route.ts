@@ -15,6 +15,8 @@ const BLOG_SLUGS = [
     "employee-wellbeing-mental-health-2026",
     "employee-engagement-software-2026-comparison",
     "learning-and-development-platforms-2026-comparison",
+    "small-business-hr-buyers-guide-2026-bamboohr-vs-gusto-vs-workable-vs-rippling",
+    "hr-analytics-people-analytics-tools-2026-comparison",
 ] as const;
 
 const TOOL_SLUGS = [
