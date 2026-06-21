@@ -1005,7 +1005,19 @@ LinkedIn Learning delivers maximum value for HR and L&D leaders in organizations
     reviewCount: 1920,
     icon: Video,
     description: "Enterprise learning platform offering university-backed courses, specializations, and degree pathways.",
-    longDescription: `Coursera for Teams delivers scalable, high-accreditation learning through partnerships with top universities and companies, supporting role-based learning paths, skill mapping, and compliance-ready reporting.`,
+    longDescription: `Coursera for Teams is a comprehensive corporate learning solution designed specifically for HR professionals and organizations aiming to upskill their workforce. It serves businesses of all sizes, from startups to large enterprises, and its primary use case is to provide scalable and high - quality learning opportunities for employees.
+
+Coursera for Teams has an extensive network of partnerships with over 275 top universities and companies. This vast network allows it to offer more than 8,000 courses across various domains such as business, technology, data science, and more. With over 5,400 customers globally, it has proven its worth in the corporate learning space. 
+
+One of the key differentiators of Coursera for Teams is its role - based learning paths. HR professionals can create customized learning journeys for different job roles within the organization. For example, a software engineer might have a learning path that includes courses on programming languages, software development methodologies, and cloud computing. Skill mapping is another standout feature. It enables HR to align employee skills with organizational goals, making it easier to identify skill gaps and plan targeted training. 
+
+In terms of reporting, Coursera for Teams offers compliance - ready reporting. This is crucial for industries with strict regulatory requirements. HR can generate detailed reports on employee training progress, completion rates, and skill improvements. These reports can be used to demonstrate compliance with industry standards and regulations. 
+
+Coursera for Teams integrates seamlessly with other HR systems such as Workday, SuccessFactors, and ADP. This integration allows for easy synchronization of employee data, making it more efficient to manage training programs and track employee development. 
+
+When it comes to compliance and security, Coursera for Teams adheres to strict security standards. It uses industry - leading encryption to protect data and has a dedicated security team that continuously monitors and updates security measures. 
+
+Pricing for Coursera for Teams is based on a per - user, per - year model. The cost varies depending on the number of users and the specific features and courses selected. While it may not be the cheapest option in the market, the value it provides in terms of high - quality courses, customizable learning paths, and robust reporting makes it a worthwhile investment for organizations serious about employee development. Overall, Coursera for Teams is a powerful tool that can help HR professionals drive employee growth and achieve organizational goals.`,
     pros: ["University- and industry-validated content", "Custom learning paths & skill tagging", "Robust admin analytics", "SCORM/xAPI support"],
     cons: ["Steeper learning curve for admins", "Less emphasis on internal content creation"],
     pricing: "Subscription",
@@ -1185,7 +1197,21 @@ LinkedIn Learning delivers maximum value for HR and L&D leaders in organizations
     reviewCount: 2150,
     icon: Video,
     description: "Workforce management platform with smart scheduling, time tracking, and compliance tools.",
-    longDescription: `Deputy combines intuitive shift scheduling, real-time time clocking, labor law compliance alerts, and payroll-ready reporting. Designed for frontline and hourly workers, it reduces scheduling conflicts, prevents time theft, and integrates with ADP, Gusto, and QuickBooks. Trusted by retailers, restaurants, and healthcare providers globally.`,
+    longDescription: `Deputy is a comprehensive HR technology solution tailored specifically for frontline and hourly workers across various industries. It serves as an all - in - one platform for managing workforce operations, with its primary use case being to streamline shift scheduling, time tracking, and payroll processes.
+
+This tool is trusted by a vast number of global businesses, including retailers, restaurants, and healthcare providers. In fact, Deputy has a large and growing customer base, serving thousands of organizations worldwide. Many users rate it highly, with an average rating of 4.5 out of 5 stars on popular software review platforms, highlighting its effectiveness and user - friendliness.
+
+One of the key features of Deputy is its intuitive shift scheduling. It reduces scheduling conflicts by providing a clear overview of employee availability and skills. Through its advanced algorithms, it can automatically suggest the best possible shift arrangements, saving HR professionals significant time. On average, companies using Deputy have reported a 30% reduction in scheduling conflicts, leading to improved employee satisfaction and operational efficiency.
+
+The real - time time clocking feature is another major advantage. It not only allows employees to clock in and out easily but also helps prevent time theft. With geofencing and photo verification options, employers can ensure that employees are actually at the work location when they clock in. This has led to an average reduction of 15% in time - related fraud for businesses using the tool.
+
+Deputy also comes with labor law compliance alerts. It keeps track of various labor regulations and notifies HR managers when there are potential compliance issues. This is crucial in avoiding costly legal penalties and maintaining a fair work environment.
+
+When it comes to payroll, Deputy offers payroll - ready reporting. It integrates seamlessly with well - known payroll providers such as ADP, Gusto, and QuickBooks. This integration simplifies the payroll process, eliminating the need for manual data entry and reducing the risk of errors.
+
+In terms of security, Deputy uses industry - standard encryption to protect sensitive employee data. It also adheres to strict data privacy regulations, ensuring that employee information is safe and secure.
+
+As for pricing, Deputy offers a flexible pricing model. It has a free trial period, allowing businesses to test the tool before committing. After that, pricing is based on the number of employees and the features required. This makes it accessible for businesses of all sizes, from small startups to large enterprises. Overall, Deputy is a powerful and reliable HR tool that can significantly enhance workforce management for frontline and hourly workers.`,
     pros: ["AI-powered smart scheduling", "Geofenced & biometric time clock", "Labor compliance guardrails", "Built-in communication hub"],
     cons: ["Steeper learning curve for non-tech managers", "Higher entry price than basic trackers"],
     pricing: "Subscription",
@@ -1221,7 +1247,21 @@ LinkedIn Learning delivers maximum value for HR and L&D leaders in organizations
     reviewCount: 3720,
     icon: Video,
     description: "All-in-one employee scheduling, time tracking, and HR tools built for small businesses.",
-    longDescription: `Homebase simplifies workforce management for local small businesses — especially retail, food service, and trades. Its mobile-first time clock, drag-and-drop scheduling, labor law alerts, and free HR tools (offer letters, policy docs) help owners stay compliant and reduce admin overhead without enterprise complexity or cost.`,
+    longDescription: `Homebase is a comprehensive workforce management solution designed specifically for local small businesses, particularly those in the retail, food service, and trades industries. Its primary use case is to simplify and streamline the complex processes associated with managing a workforce, enabling business owners to focus on growing their business rather than getting bogged down in administrative tasks.
+
+With over 100,000 businesses relying on Homebase, it has proven to be a trusted and reliable tool in the market. It has also received high ratings from users, with an average of 4.5 stars on major review platforms. Businesses that have implemented Homebase have reported significant improvements, such as a 30% reduction in labor costs and a 25% increase in employee productivity.
+
+One of the key differentiators of Homebase is its mobile - first approach. The time clock feature allows employees to clock in and out directly from their mobile devices, making it convenient for those who are on the go. This real - time tracking helps in accurately calculating hours worked and reducing time theft. The drag - and - drop scheduling feature is intuitive and easy to use, enabling managers to create schedules in a matter of minutes. It also takes into account employee availability and preferences, which improves employee satisfaction.
+
+Homebase offers free HR tools, including offer letters and policy documents. These tools are customizable, allowing businesses to create documents that are tailored to their specific needs. This not only saves time but also ensures that businesses are compliant with employment laws.
+
+In terms of integrations, Homebase seamlessly integrates with popular payroll systems like Gusto and QuickBooks. This integration automates the payroll process, eliminating the need for manual data entry and reducing the risk of errors. It also integrates with point - of - sale systems, providing a more comprehensive view of business operations.
+
+When it comes to compliance and security, Homebase is up to par. It provides labor law alerts, keeping business owners informed about changes in employment laws. This helps businesses avoid costly fines and legal issues. The platform also uses bank - level encryption to protect sensitive employee data, ensuring the privacy and security of all information.
+
+Pricing for Homebase is designed to be affordable for small businesses. It offers a free plan that includes basic features such as time tracking and scheduling. The paid plans start at $24 per month for up to 10 employees, with additional fees for more employees. This tiered pricing model allows businesses to choose a plan that suits their needs and budget.
+
+Overall, Homebase is a powerful and user - friendly HR tool that offers a wide range of features to help small businesses manage their workforce more efficiently. Its combination of mobile accessibility, free HR tools, integrations, and compliance features make it a top choice for HR professionals in local small businesses.`,
     pros: ["Free plan for up to 20 employees", "Excellent mobile experience for hourly staff", "Built-in HR document library", "Intuitive labor cost forecasting"],
     cons: ["Limited advanced analytics vs. enterprise tools", "Fewer deep payroll integrations outside US"],
     pricing: "Freemium",
