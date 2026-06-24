@@ -19,6 +19,9 @@ const BLOG_SLUGS = [
     "hr-analytics-people-analytics-tools-2026-comparison",
     "payroll-automation-trends-2026",
     "skills-gap-analysis-tools-2026",
+    "hr-tech-stack-integration-people-analytics-ecosystem-2026",
+    "onboarding-automation-hr-tech-2026-experience",
+    "employee-experience-platforms-rise-2026",
 ] as const;
 
 const TOOL_SLUGS = [
