@@ -22,6 +22,7 @@ const BLOG_SLUGS = [
     "hr-tech-stack-integration-people-analytics-ecosystem-2026",
     "onboarding-automation-hr-tech-2026-experience",
     "employee-experience-platforms-rise-2026",
+    "compensation-management-software-2026-trends",
 ] as const;
 
 const TOOL_SLUGS = [
