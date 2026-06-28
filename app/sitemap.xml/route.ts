@@ -24,6 +24,8 @@ const BLOG_SLUGS = [
     "employee-experience-platforms-rise-2026",
     "compensation-management-software-2026-trends",
     "revamped-performance-review-continuous-feedback-tools",
+    "measuring-what-matters-deib-analytics-implementation",
+    "people-analytics-workforce-planning-retention-prediction-2026",
 ] as const;
 
 const TOOL_SLUGS = [
