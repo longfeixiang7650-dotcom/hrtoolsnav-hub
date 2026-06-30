@@ -26,6 +26,7 @@ const BLOG_SLUGS = [
     "revamped-performance-review-continuous-feedback-tools",
     "measuring-what-matters-deib-analytics-implementation",
     "people-analytics-workforce-planning-retention-prediction-2026",
+    "building-continuous-listening-culture-employee-feedback-tools",
 ] as const;
 
 const TOOL_SLUGS = [
