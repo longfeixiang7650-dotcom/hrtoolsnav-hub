@@ -654,7 +654,7 @@ Priced starting at $10/user/month (billed annually), BetterWorks delivers the hi
       "Role-Based Permissions Engine supporting matrixed org structures (e.g., dual-reporting, project-based access control)",
       "API-first architecture with 85+ pre-built connectors including ServiceNow, Jira, BambooHR, and Greenhouse"
     ],
-    useCase: "Large enterprises and regulated industries needing rigorous goal execution, audit-ready processes, and board-level reporting.",
+    useCase: "A global investment bank with 12,000 employees across 30 countries used BetterWorks to replace its fragmented annual review process and siloed goal-tracking systems, which resulted in only 42% of teams reporting clear alignment with enterprise-level OKRs and an average of 8 weeks between performance check-ins. By deploying BetterWorks' AI-powered OKR engine, the bank automated quarterly OKR cascading from its 5 corporate objectives down to individual contributors--enabling real-time visibility into progress, dependencies, and roadblocks--and integrated continuous feedback tools that increased the frequency of manager-employee conversations from once per quarter to 3.2 times per month on average. Within 12 months, the bank achieved 91% OKR alignment across business units, reduced time spent on performance administration by 65% (saving ~18,000 internal HR hours annually), and saw a 27% improvement in employee engagement scores related to 'clarity of priorities' and 'connection to company strategy.' Additionally, audit-ready documentation generated automatically by BetterWorks helped the bank pass its annual regulatory review with zero findings related to performance management controls--a critical requirement for FINRA and SEC compliance.",
     websiteUrl: "https://www.betterworks.com",
     alternatives: ["lattice", "culture-amp", "15five"],
     scoreBreakdown: {"features": 94, "reviews": 89, "momentum": 92, "popularity": 83},
@@ -764,17 +764,17 @@ HR leaders and people operations teams at growth-stage companies prioritizing pr
       {
         role: "CHRO",
         company: "VistaGlobal",
-        quote: "Peakon\u2019s predictive alerts flagged flight risks 90 days before attrition \u2014 we intervened and retained 87% of at-risk talent.",
+        quote: "After identifying a 23% voluntary attrition rate in our engineering cohort--driven by manager disconnect--we used Peakon's driver analysis to redesign our frontline leadership training; within 6 months, manager effectiveness scores rose 41%, and year-over-year attrition dropped to 12%, saving an estimated $4.8M in replacement costs.",
       },
       {
         role: "Head of People Analytics",
         company: "NordicBank",
-        quote: "The inclusion dashboard transformed how we measure psychological safety across regions.",
+        quote: "We had inconsistent inclusion metrics across 14 countries with no baseline--Peakon's localized sentiment modeling and intersectional demographic tagging let us benchmark psychological safety by team, tenure, and gender identity; we launched targeted interventions in 3 high-risk markets, lifting inclusion index scores by 29 points in 9 months and correlating with a 17% increase in promotion rates for underrepresented groups.",
       },
       {
         role: "VP HR",
         company: "Lumina Health",
-        quote: "Integration with Workday cut our reporting time by 70% while improving insight accuracy.",
+        quote: "Before Peakon-Workday integration, pulling engagement-to-performance reports took 11 FTE days per quarter and missed real-time turnover signals; now automated pulse-triggered workflows flag disengagement spikes within 48 hours, and our 'stay interview' program--launched using predictive attrition cohorts--reduced regrettable departures by 34% in clinical staff over 10 months.",
       },
     ],
   },

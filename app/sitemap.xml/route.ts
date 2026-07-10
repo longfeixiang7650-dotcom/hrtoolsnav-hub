@@ -28,6 +28,14 @@ const BLOG_SLUGS = [
     "people-analytics-workforce-planning-retention-prediction-2026",
     "building-continuous-listening-culture-employee-feedback-tools",
     "ai-powered-performance-management-platforms-2026",
+    "ats-vs-hris-vs-performance-tools-building-hr-tech-stack-for-growth-2026",
+    "charthop-vs-visier-vs-one-model-people-analytics-comparison-2026",
+    "employee-recognition-rewards-platforms-2026",
+    "global-payroll-contractor-management-2026-deel-remote-multiplier-papaya-oyster",
+    "lattice-vs-15five-vs-culture-amp-2026",
+    "ai-powered-ats-guide-2026",
+    "dei-tools-2026-building-fairer-workplace",
+    "employee-feedback-continuous-listening-2026",
 ] as const;
 
 const TOOL_SLUGS = [
