@@ -340,8 +340,8 @@ export const ALL_TOOLS: ToolData[] = [
         "Candidate relationship management (CRM) with email sequencing and tagging",
         "Compliance-ready audit logs with user-level activity tracking"
       ],
-    useCase: "Ideal for fast-growing mid-market companies (50-2,500 employees) with dedicated recruiting teams needing scalable, collaborative hiring without enterprise implementation overhead.",
-    websiteUrl: "https://example.com",
+    useCase: "Ideal for fast-growing mid-market companies (50-2,500 employees) with dedicated recruiting teams that need to reduce time-to-hire by 30%+ and increase offer acceptance rates by 25% through collaborative, customizable workflows, AI-powered candidate matching, and seamless integrations with HRIS and calendar tools -- all deployed in under 2 weeks without custom implementation.",
+    websiteUrl: "https://www.workable.com",
     alternatives: ["lever", "greenhouse", "smartrecruiters"],
     scoreBreakdown: {"features": 88,"reviews": 86,"momentum": 82,"popularity": 84},
     userQuotes:     [
@@ -402,8 +402,8 @@ export const ALL_TOOLS: ToolData[] = [
         "Candidate communication center with templated SMS/email and read receipts",
         "API-first architecture with 200+ endpoints and GraphQL support"
       ],
-    useCase: "Ideal for mid-market to Fortune 500 companies (500-10,000+ employees) with distributed hiring teams, global operations, and a need to unify sourcing, assessment, and analytics into one compliant, scalable platform.",
-    websiteUrl: "https://example.com",
+    useCase: "Ideal for mid-market to Fortune 500 companies (500-10,000+ employees) with distributed hiring teams across 30+ countries, enabling them to reduce time-to-fill by up to 35%, improve candidate quality through AI-powered matching and structured assessments, and maintain global compliance (GDPR, CCPA, EEO) while unifying sourcing, interviewing, offer management, and analytics in a single scalable platform.",
+    websiteUrl: "https://www.smartrecruiters.com",
     alternatives: ["lever", "greenhouse", "workable"],
     scoreBreakdown: {"features": 92,"reviews": 86,"momentum": 88,"popularity": 84},
     userQuotes:     [
@@ -1084,7 +1084,7 @@ LinkedIn Learning delivers maximum value for HR and L&D leaders in organizations
       "API-first architecture with 22 production-ready endpoints\u2014including skill gap export, learner progress webhook, and custom path assignment\u2014supporting CI/CD integration and custom dashboard builds",
       "White-labeling options for login pages, mobile app icons, and certificate templates (available in Premium+ tiers), including WCAG 2.2 AA accessibility validation reports"
     ],
-    useCase: "Upskilling employees across technical and soft skills with measurable progress tracking.",
+    useCase: `LinkedIn Learning enables tech and HR teams to close critical skill gaps -- such as cloud certification readiness or inclusive leadership -- by assigning role-aligned learning paths and tracking completion rates, assessment scores, and post-training application (e.g., 75%+ of engineers completing AWS Cloud Practitioner prep within 8 weeks; 30% increase in manager-led feedback frequency after soft skills training). Learners gain personalized development, managers access real-time team competency dashboards, and L&D leaders measure ROI via reduced time-to-competency and improved internal mobility rates.`,
     websiteUrl: "https://www.linkedin.com/learning/",
     alternatives: ["coursera-for-teams", "udemy-business", "skillsoft"],
     scoreBreakdown: {"features": 92, "reviews": 87, "momentum": 89, "popularity": 94},
