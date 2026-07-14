@@ -36,6 +36,7 @@ const BLOG_SLUGS = [
     "ai-powered-ats-guide-2026",
     "dei-tools-2026-building-fairer-workplace",
     "employee-feedback-continuous-listening-2026",
+    "hr-compliance-automation-2026-guide",
 ] as const;
 
 const TOOL_SLUGS = [
