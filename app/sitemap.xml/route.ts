@@ -37,6 +37,7 @@ const BLOG_SLUGS = [
     "dei-tools-2026-building-fairer-workplace",
     "employee-feedback-continuous-listening-2026",
     "hr-compliance-automation-2026-guide",
+    "top-hr-software-workforce-management-2026",
 ] as const;
 
 const TOOL_SLUGS = [
