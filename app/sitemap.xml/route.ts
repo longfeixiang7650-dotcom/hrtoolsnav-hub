@@ -38,6 +38,10 @@ const BLOG_SLUGS = [
     "employee-feedback-continuous-listening-2026",
     "hr-compliance-automation-2026-guide",
     "top-hr-software-workforce-management-2026",
+  "comparing-hris-systems-2026-bamboohr-vs-rippling-vs-gusto-vs-workday",
+  "employee-engagement-software-what-actually-works-in-2026",
+  "skills-based-hiring-2026-ai-powered",
+  "ai-powered-onboarding-transforming-employee-experience-2026",
 ] as const;
 
 const TOOL_SLUGS = [
