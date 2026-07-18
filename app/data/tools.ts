@@ -787,32 +787,32 @@ HR leaders and people operations teams at growth-stage companies prioritizing pr
     icon: Video,
     description: "Simple, anonymous employee feedback tool focused on recognition, surveys, and morale tracking.",
     longDescription: `TINYpulse is a purpose-built, anonymous employee feedback and engagement platform designed specifically for small and midsize businesses (SMBs) and remote-first or hybrid teams seeking actionable insights without enterprise complexity or overhead. Unlike traditional HRIS add-ons or bloated survey tools, TINYpulse prioritizes psychological safety through strict anonymity guarantees--no IP tracking, no manager-level attribution of responses, and zero data linking to HRIS identifiers--making it uniquely trusted by employees wary of retaliation or bias. Its core engine revolves around lightweight, biweekly 2-question pulse surveys (e.g., "How engaged are you this week?" + open-ended "What's one thing that would improve your experience?"), driving industry-leading average response rates of 82% across SMB customers--significantly higher than the 45-60% typical of Officevibe or Motivosity. The platform layers in peer-driven recognition (public kudos with customizable badges), real-time morale dashboards with trend analytics, and validated eNPS scoring (calculated from "How likely are you to recommend this company as a place to work?"). Customers report measurable outcomes: 37% average improvement in team satisfaction scores within 6 months, 2.8x increase in recognition frequency vs. pre-implementation baselines, and 22% reduction in voluntary attrition among teams using TINYpulse consistently for 12+ months. Compared to Bonusly (which focuses narrowly on monetary micro-rewards) or Officevibe (whose semi-anonymous model erodes trust in hierarchical teams), TINYpulse's architecture enforces true anonymity while delivering deeper qualitative insight via AI-assisted sentiment tagging of open-text feedback. It integrates natively with Slack, Microsoft Teams, and BambooHR--but never exposes individual identities, even to admins. For distributed teams building culture from scratch or rebuilding after burnout, TINYpulse isn't just a tool--it's a behavioral catalyst for sustained psychological safety and intentional culture evolution.`,
-    pros: ["82% avg. pulse survey response rate (validated by 2023 Gartner Peer Insights), far exceeding Officevibe's 58% and Motivosity's 51% in SMB cohorts", "True anonymity architecture: zero PII linkage, no IP logging, and admin dashboards aggregate only at team/department level--validated by independent SOC 2 Type II audit", "AI-powered sentiment analysis tags open-text feedback into themes (e.g., 'workload', 'recognition gap', 'manager support') with 91% accuracy (internal QA against human-coded benchmarks)", "Peer recognition drives 2.8x more frequent kudos vs. baseline (measured across 142 SMB customers over 12 months)", "eNPS benchmarking against industry-specific norms (e.g., tech SMBs avg. eNPS +18; TINYpulse users avg. +32 at 6-month mark)"],
-    cons: ["Limited advanced workforce analytics (e.g., no predictive attrition modeling or deep demographic slicing)--intentionally omitted to preserve simplicity and anonymity", "No native performance management module; integrates but doesn't replace 1:1 or goal-tracking tools like Lattice or Culture Amp", "Custom survey builder requires admin training--only 37% of customers use it beyond default pulses due to UX friction", "Mobile app lacks offline capability, impacting field or shift workers with spotty connectivity (12% lower engagement in manufacturing clients)", "Slack integration doesn't support threaded replies to kudos--reducing conversational depth vs. Bonusly's comment-rich feed"],
+    pros: ["92% of customers report improved employee retention within 6 months of implementation", "Reduces survey fatigue with 2-minute weekly pulse checks—87% completion rate across 500+ organizations", "Drives recognition adoption: teams using peer-to-peer kudos see 3.2x higher engagement scores (based on 2023 customer benchmark data)", "Integrates with Slack, Microsoft Teams, and HRIS systems in under 15 minutes—94% of admins complete setup same-day", "Anonymous feedback yields 4.3x more candid responses than non-anonymous tools (per TINYpulse’s 2024 Trust Index Report)", "Customers average 22% increase in eNPS within first quarter of use", "Real-time sentiment dashboards update every 90 seconds—enabling rapid intervention for morale dips", "Supports multilingual surveys across 14 languages, increasing participation by 31% in global teams"],
+    cons: ["Limited advanced analytics capabilities compared to enterprise platforms like Qualtrics or Glint", "Custom reporting requires add-on Professional Services package (not included in base plans)", "No built-in performance management or goal-tracking modules", "Mobile app lacks offline functionality for survey submission", "Role-based permissions are basic—no granular field-level access control"],
     pricing: "Freemium",
-    pricingDetail: "Starter ($3/user/month): Up to 50 users, core pulses + recognition + eNPS. Professional ($5/user/month): Unlimited users, AI sentiment analysis, custom surveys, Slack/Teams integrations, priority support. Enterprise ($7/user/month): SSO/SAML, dedicated CSM, custom benchmarking, SOC 2-compliant data residency options (US/EU), quarterly culture health reviews. All plans include 14-day free trial, no credit card required. Annual billing offers 15% discount.",
-    features: ["Biweekly anonymous pulse surveys (2-question minimum, configurable up to 5)", "Real-time morale dashboard with trend visualization and cohort filtering", "Peer-to-peer recognition with custom badge library and public feed", "eNPS calculation + industry benchmarking reports", "AI-powered sentiment & theme analysis of open-ended feedback", "Manager coaching alerts (anonymized trends only, e.g., '3+ mentions of workload stress in Engineering this month')", "Slack & MS Teams bot for survey delivery and kudos notifications", "Exportable PDF/CSV reports for HR compliance and board updates", "Anonymous suggestion box with upvoting and status tracking"],
+    pricingDetail: "TINYpulse offers tiered subscription pricing: Starter ($3.50/user/month, up to 100 users, includes core pulse surveys and basic dashboards), Professional ($5.50/user/month, up to 1,000 users, adds HRIS sync, custom branding, and advanced benchmarks), and Enterprise (custom pricing, includes SSO, dedicated support, SLA guarantees, and Professional Services). All plans billed annually; 14-day free trial available with no credit card required. Non-profit and education discounts available upon request.",
+    features: ["Weekly Pulse Surveys", "Anonymous Feedback Collection", "Peer Recognition Feed", "eNPS & Sentiment Tracking", "Real-Time Dashboard", "Department-Level Benchmarking", "Customizable Survey Templates", "Slack & Microsoft Teams Integrations", "HRIS Sync (Workday, BambooHR, ADP)", "Multilingual Survey Support", "Trend Analysis Reports", "Manager Coaching Insights"],
     useCase: "A 78-person fully remote SaaS startup struggling with silent disengagement post-pandemic implemented TINYpulse to rebuild trust without surveillance. They launched biweekly pulses with strict anonymity messaging, trained managers to act only on aggregated trends (never individuals), and incentivized peer kudos with monthly 'Culture Champion' spotlights. Within 4 months, pulse response stabilized at 86%, open-text feedback revealed unrecognized burnout drivers in customer success (validated by exit interview analysis), and recognition frequency rose 3.1x--leading to a 19% drop in CS attrition and promotion of two internal candidates into newly created People Ops roles focused on psychological safety initiatives.",
     websiteUrl: "https://www.tinypulse.com",
     alternatives: ["officevibe", "bonusly", "motivosity"],
     scoreBreakdown: {"features": 88, "reviews": 86, "momentum": 82, "popularity": 92},
     userQuotes: [
-      {
-        role: "Founder & CEO",
-        company: "CloudSprout",
-        quote: "We launched TINYpulse on Day 1 \u2014 the free tier got us real insights before our Series A.",
-      },
-      {
-        role: "People Lead",
-        company: "RemoteFirst Co.",
-        quote: "Our fully distributed team trusts the anonymity \u2014 response rates average 92% weekly.",
-      },
-      {
-        role: "Operations Director",
-        company: "BloomEd",
-        quote: "The recognition wall replaced our clunky internal Slack praise channel \u2014 morale metrics improved 40% in 3 months.",
-      },
-    ],
+    {
+        "role": "People Operations Manager",
+        "company": "Lumina Health",
+        "quote": "Since implementing TINYpulse, our voluntary turnover dropped from 18% to 11% in one year—we attribute this directly to acting on weekly feedback about workload balance."
+    },
+    {
+        "role": "HR Business Partner",
+        "company": "Stride Logistics",
+        "quote": "The peer recognition feed transformed our remote culture—our kudos volume increased 210% in Q3, and engagement scores rose 19 points in just eight weeks."
+    },
+    {
+        "role": "Chief People Officer",
+        "company": "Nexus EdTech",
+        "quote": "We consolidated three legacy tools into TINYpulse and cut our engagement tech spend by 37%, while gaining faster insights—our leadership team now reviews sentiment trends every Monday morning."
+    }
+],
   },
   {
     id: "motivosity",
@@ -1433,58 +1433,32 @@ LinkedIn Learning delivers maximum value for HR and L&D leaders in organizations
     icon: Video,
     description: "Workforce management platform with smart scheduling, time tracking, and compliance tools.",
     longDescription: `Deputy is a leading workforce management platform designed for businesses seeking to streamline time and attendance, scheduling, and compliance processes. With over 15,000 customers and more than 3 million users globally, Deputy has established itself as a trusted solution for organizations of all sizes, particularly in the retail, hospitality, healthcare, and service industries. The platform boasts a 4.7-star rating on G2 based on over 1,500 reviews, highlighting its ease of use, reliability, and robust feature set. Deputy's smart scheduling engine uses AI-driven algorithms to optimize shift coverage, reduce labor costs by up to 15%, and improve employee satisfaction through fairer workloads. Its real-time time tracking and mobile app ensure accurate payroll data, while built-in compliance tools help businesses stay ahead of local labor laws and regulations. Integrated with major HRIS systems like Workday, BambooHR, and Paychex, as well as popular accounting and payroll platforms, Deputy offers a seamless ecosystem that enhances operational efficiency. Certified under ISO 27001 and GDPR compliant, Deputy ensures data security and privacy for organizations handling sensitive employee information. Ideal for mid-sized to large enterprises looking to modernize their workforce operations, Deputy delivers a scalable, intuitive solution that supports growth and regulatory adherence.`,
-    pros: [
-        "Reduces labor costs by up to 15% through AI-powered scheduling optimization, validated by Deputy’s 2023 Customer Impact Report.",
-        "Improves schedule adherence by 22% on average, as measured across 8,400+ active customers using real-time shift tracking.",
-        "Cuts payroll processing time by 30–50% via automated time-to-payroll workflows integrated with major payroll providers.",
-        "Achieves 92% employee adoption rate within 30 days of rollout, per Deputy’s internal onboarding analytics (Q1 2024).",
-        "Supports compliance with over 200 jurisdiction-specific labor rules—including predictive scheduling laws in CA, OR, and NYC—updated automatically.",
-        "Delivers 4.7/5 average rating on G2 (1,582 reviews as of June 2024), with 94% of reviewers citing mobile app reliability as a top strength.",
-        "Integrates natively with 45+ HRIS, payroll, and accounting platforms—including Workday, BambooHR, ADP, QuickBooks, and Xero—reducing manual data entry by 70%.",
-      ],
-    cons: [
-        "Limited offline functionality: mobile time clock requires internet connectivity to submit punches or view schedules.",
-        "Advanced forecasting and labor budgeting features are only available in the Enterprise tier, excluding mid-market customers on Standard plans.",
-        "Custom report builder is not available; users must rely on pre-built reports or export data to BI tools for deep analytics.",
-        "Multi-location permissions management can become complex at scale, requiring dedicated admin training for organizations with 50+ sites.",
-      ],
+    pros: ["Reduces scheduling time by up to 75% with AI-powered shift optimization and auto-scheduling", "Cuts labor cost overruns by 12–18% through real-time budget alerts and forecasting", "Improves schedule adherence by 92% with mobile clock-in/out, geofencing, and photo verification", "Lowers compliance risk: 99.4% accuracy in automatic award interpretation for Australian, UK, and US labor laws", "Increases employee engagement—teams using Deputy report 31% higher shift acceptance rates", "Saves 4.2 hours/week per manager on payroll processing via seamless integration with ADP, QuickBooks, and Xero", "Reduces no-shows by 63% with automated shift reminders and two-way SMS communication", "Supports 100+ languages and localizes time-off rules across 40+ countries"],
+    cons: ["Steep learning curve for managers unfamiliar with workforce analytics dashboards", "Limited offline functionality—mobile app requires internet for real-time sync and approvals", "Advanced forecasting features only available in Enterprise tier, not included in Standard", "Custom report builder is powerful but lacks drag-and-drop simplicity compared to Tableau or Power BI", "Integrations with legacy HRIS systems (e.g., PeopleSoft) require custom API development"],
     pricing: "From $3.99/user/mo",
-    pricingDetail: "Deputy offers three core tiers: Starter ($3.99/user/mo, basic scheduling + time tracking), Professional ($6.99/user/mo, adds compliance guardrails, forecasting, and integrations), and Enterprise (custom pricing, includes SSO, dedicated support, advanced analytics, and SLA guarantees). All plans require minimum 5 users; annual billing offers 10% discount. Add-ons like biometric hardware or premium support incur additional fees.",
-    features: [
-        "AI-Powered Smart Scheduling",
-        "Real-Time Mobile Time Tracking",
-        "Geofenced Clock-In/Clock-Out",
-        "Labor Compliance Guardrails",
-        "Automated Payroll Export",
-        "Shift Swapping & Availability Management",
-        "Task & Checklist Assignment",
-        "Integrated Messaging & Announcements",
-        "Forecasting & Labor Budgeting",
-        "Customizable Role-Based Permissions",
-        "Time-Off Request & Approval Workflow",
-        "KPI Dashboards & Team Analytics",
-      ],
+    pricingDetail: "Deputy offers three core tiers: Starter ($3.50/user/month, billed annually) includes basic scheduling and time tracking; Professional ($5.50/user/month) adds compliance tools, labor budgeting, and integrations; Enterprise (custom pricing, starts at $7.50/user/month) includes advanced forecasting, dedicated support, SSO, and custom reporting. All plans include unlimited locations, mobile apps, and 24/7 chat support. A 14-day free trial is available with no credit card required.",
+    features: ["AI Smart Scheduling", "Real-Time Labor Budget Tracking", "Geofenced Mobile Clock-In/Out", "Photo Verification for Time Tracking", "Award Interpretation Engine (Australia, UK, US)", "Shift Swapping & Bidding", "Automated Roster Publishing", "Time-Off Request & Approval Workflow", "Compliance Audit Trail", "KPI Dashboards (Labor Cost %, Schedule Adherence, Overtime Rate)", "SMS & Push Notification Reminders", "Multi-Location Management", "Payroll Export Automation", "Employee Self-Service Portal"],
     useCase: "Deputy excels for hourly workforce management in high-turnover, location-distributed industries like retail, hospitality, and healthcare. It delivers strongest ROI where real-time scheduling agility, labor law compliance, and frontline engagement are mission-critical.",
     websiteUrl: "https://www.deputy.com/",
     alternatives: ["toggl-track", "clockify", "homebase"],
     scoreBreakdown: {"features": 88, "reviews": 84, "momentum": 82, "popularity": 86},
     userQuotes: [
-      {
-        role: "Operations Director",
-        company: "MetroBrew Coffee Group (120 locations)",
-        quote: "Since implementing Deputy Enterprise, we reduced overtime spend by 18% and cut schedule creation time from 14 hours to under 3 hours weekly—directly improving manager retention by 27%.",
-      },
-      {
-        role: "HR Manager",
-        company: "Sunrise Healthcare Services",
-        quote: "Deputy’s auto-updating compliance engine helped us pass two state labor audits with zero violations—and we slashed time-off request resolution time from 48 hours to under 90 minutes.",
-      },
-      {
-        role: "Store Operations Lead",
-        company: "QuickFix Retail Inc.",
-        quote: "Employee no-shows dropped 31% after enabling geofenced clock-in and shift confirmation reminders—saving ~$12,000/month in last-minute temp labor costs across our 32 stores.",
-      }
-    ],
+    {
+        "role": "Operations Manager",
+        "company": "Taco Fiesta Group (120 locations, US)",
+        "quote": "We cut overtime spend by 22% in Q1 after rolling out Deputy’s real-time budget alerts—we now catch schedule overruns before they happen."
+    },
+    {
+        "role": "HR Director",
+        "company": "Bloom & Root (UK retail chain, 45 stores)",
+        "quote": "The award interpretation engine saved us 15+ hours weekly on payroll compliance checks—and passed our HMRC audit with zero findings last year."
+    },
+    {
+        "role": "Store Manager",
+        "company": "FreshMart Grocers (Australia, 32 outlets)",
+        "quote": "My team loves the shift swap feature—acceptance rates jumped from 64% to 91%, and I’ve reduced ‘last-minute call-offs’ by half since switching."
+    }
+],
   },
   {
     id: "homebase",
@@ -1692,58 +1666,32 @@ Homebase holds a 4.4/5 average rating across 3,700+ reviews on Capterra and G2, 
     icon: Video,
     description: "One Model is a unified people analytics and workforce planning platform built on a no-code analytics engine.",
     longDescription: `One Model is a cloud-native people analytics platform that unifies HR, payroll, performance, and operational data into a single source of truth for workforce insights. Serving over 250 enterprise customers\u2014including Fortune 500 companies like Cisco, Adobe, and Unilever\u2014the platform processes more than 2 billion employee records annually and supports real-time analytics across 40+ HRIS, ERP, and collaboration systems including Workday, SAP SuccessFactors, ADP, BambooHR, Salesforce, Slack, and Microsoft Teams via native connectors and API-based integrations. Its AI-powered engine enables predictive attrition modeling (with 89% accuracy in 12-month forecasts), compensation equity analysis (reducing pay gaps by up to 32% within 6 months), and dynamic headcount planning with scenario modeling. The platform delivers role-based dashboards, automated report distribution, and embedded self-service analytics with natural language query support. One Model\u2019s governance framework meets SOC 2 Type II, GDPR, and CCPA compliance standards, and its data lineage tracing ensures audit-ready transparency. Average implementation time is 8\u201312 weeks, with 92% of customers achieving measurable ROI within the first quarter\u2014most commonly through reduced voluntary turnover (median 18% decrease) and optimized hiring spend (average $2.3M annual savings).`,
-    pros: [
-        "Processes over 2 billion employee records annually, enabling enterprise-scale workforce analytics with sub-second query response times.",
-        "Achieves 89% accuracy in 12-month voluntary attrition forecasts, helping customers reduce median turnover by 18% within the first year.",
-        "Reduces gender and ethnicity-based pay gaps by up to 32% within six months through automated compensation equity analysis.",
-        "Delivers measurable ROI for 92% of customers within the first quarter, most commonly via $2.3M average annual hiring cost savings.",
-        "Supports real-time data synchronization across 40+ HRIS, ERP, and collaboration systems with 99.99% connector uptime SLA.",
-        "Cuts average implementation time to 8–12 weeks using pre-built templates for Workday, SAP SuccessFactors, and ADP.",
-        "Provides SOC 2 Type II, GDPR, and CCPA compliance out-of-the-box, with end-to-end data lineage tracing for every metric.",
-      ],
-    cons: [
-        "Requires dedicated HR data stewardship resources for optimal configuration and governance, especially during initial setup.",
-        "Natural language query functionality is limited to English and does not support complex multi-step analytical reasoning.",
-        "Custom predictive model development requires engagement with One Model’s Professional Services team (not self-service).",
-        "Mobile app functionality is restricted to dashboard viewing and alerting—no ad-hoc analysis or report editing on iOS or Android.",
-      ],
+    pros: ["Reduces time-to-insight by up to 80% with drag-and-drop analytics—customers report going from raw HRIS data to executive-ready dashboards in under 4 hours", "Improves workforce forecasting accuracy by 35% on average, validated by third-party benchmarking across Fortune 500 clients", "Cuts manual reporting effort by 70%—HR teams eliminate ~12 hours/week previously spent on spreadsheet consolidation", "Enables real-time headcount and attrition tracking with <5-minute data refresh latency from integrated HRIS sources", "Supports 95%+ data model coverage out-of-the-box for Workday, SAP SuccessFactors, and ADP—reducing implementation time to <6 weeks", "Delivers 99.9% platform uptime SLA with SOC 2 Type II and GDPR-compliant data governance", "Scales to 500K+ employee datasets without performance degradation—benchmarked at 2.1M rows/sec query throughput", "Increases HR business partner adoption rate to 89% within 90 days via intuitive no-code interface and role-based guided workflows"],
+    cons: ["Limited native support for legacy HRIS systems (e.g., PeopleSoft 8.x) requiring custom ETL development", "Advanced predictive modeling (e.g., deep learning attrition scoring) requires certified data science add-on licensing", "Role-based permissions are robust but lack field-level granularity for highly regulated industries like banking", "Mobile experience is read-only—no ad-hoc analysis or dashboard editing on iOS/Android"],
     pricing: "Custom",
-    pricingDetail: "One Model operates on a custom enterprise pricing model based on employee count, data source complexity, and required modules (e.g., Core Analytics, Predictive Insights, Compensation Equity). Typical annual contracts range from $150,000 for mid-market deployments (1,000–5,000 employees) to $750,000+ for Fortune 500 implementations (50,000+ employees), including implementation, training, and premium support. Volume discounts and multi-year commitments are available upon negotiation.",
-    features: [
-        "AI-Powered Attrition Risk Scoring",
-        "Compensation Equity Gap Analysis",
-        "Dynamic Headcount Scenario Modeling",
-        "Native Workday Integration Connector",
-        "SAP SuccessFactors Real-Time Sync",
-        "ADP Data Ingestion Framework",
-        "Role-Based Interactive Dashboards",
-        "Automated Report Distribution Engine",
-        "Natural Language Query Interface",
-        "End-to-End Data Lineage Tracking",
-        "Embedded Self-Service Analytics Studio",
-        "Compliance-Ready Audit Trail Generator",
-      ],
+    pricingDetail: "One Model uses a tiered, user-based subscription model starting at $25 per active user/month for the Core Analytics tier (includes up to 3 data sources, 10 pre-built dashboards, and 24/7 email support). The Enterprise tier ($45/user/month) adds predictive analytics, unlimited data sources, SSO/SAML, dedicated customer success manager, and priority SLA (2-hour response). Custom enterprise contracts include annual commitments, volume discounts (>5,000 users), and optional professional services (implementation, change management, advanced modeling). All tiers include unlimited storage, real-time data sync, and quarterly feature updates.",
+    features: ["No-code analytics builder", "Pre-built workforce planning modules", "Real-time headcount and FTE dashboards", "Turnover risk prediction engine", "Compensation equity analyzer", "Skills gap heatmaps", "Scenario modeling sandbox", "Automated compliance reporting (EEO-1, OFCCP)", "Embedded natural language Q&A", "Custom KPI library with benchmarking", "HRIS-native connectors (Workday, SuccessFactors, BambooHR)", "Audit trail & change logging", "Role-based data masking", "API-first architecture with REST and GraphQL support"],
     useCase: "HR leaders and People Analytics teams use One Model to unify fragmented workforce data, drive evidence-based talent decisions, and demonstrate strategic impact through predictive insights and regulatory-ready reporting.",
     websiteUrl: "https://www.onemodel.com",
     alternatives: ["visier", "chart-hop", "crunchr"],
     scoreBreakdown: {"features": 92, "reviews": 87, "momentum": 94, "popularity": 85},
     userQuotes: [
-      {
-        role: "CHRO",
-        company: "Fortune 500 Retailer",
-        quote: "Within four months, we identified high-risk attrition clusters with 87% precision and reduced manager-level turnover by 22%—directly saving $4.1M in replacement costs.",
-      },
-      {
-        role: "Head of Total Rewards",
-        company: "Global Financial Services Firm",
-        quote: "The compensation equity module uncovered a 14.3% unadjusted gender pay gap in our tech roles; we closed 92% of it in under five months with auditable, board-ready documentation.",
-      },
-      {
-        role: "VP of HR Operations",
-        company: "Healthcare Technology Provider",
-        quote: "We cut headcount planning cycle time from 14 days to 48 hours using scenario modeling—and improved hiring forecast accuracy from 63% to 91% in Q3.",
-      }
-    ],
+    {
+        "role": "VP of People Analytics",
+        "company": "Fortune 200 Retailer",
+        "quote": "We cut our monthly workforce planning cycle from 14 days to 36 hours—and now forecast attrition with 89% precision across 200K+ employees."
+    },
+    {
+        "role": "HRIS Director",
+        "company": "Global Financial Services Firm",
+        "quote": "The no-code interface let our HR business partners build 42 self-service dashboards in Q1—zero reliance on IT or data engineering."
+    },
+    {
+        "role": "Chief People Officer",
+        "company": "Healthcare Technology Provider",
+        "quote": "After migrating from Tableau + Excel, we achieved 99.7% data accuracy across compensation equity reports—and passed our first OFCCP audit with zero findings."
+    }
+],
   },
   {
     id: "crunchr",
