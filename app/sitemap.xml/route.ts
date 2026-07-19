@@ -44,6 +44,7 @@ const BLOG_SLUGS = [
   "ai-powered-onboarding-transforming-employee-experience-2026",
   "remote-team-management-digital-first-hr-tools-2026",
   "employee-onboarding-ai-automation-transforming-2026",
+  "hr-ai-agents-and-copilots-in-2026",
 ] as const;
 
 const TOOL_SLUGS = [
