@@ -35,3 +35,5 @@ scripts/
 package.json
 package-lock.json
 tsconfig.json
+
+tsconfig.tsbuildinfo

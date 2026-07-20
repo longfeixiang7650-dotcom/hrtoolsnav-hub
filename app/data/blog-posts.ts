@@ -4169,4 +4169,61 @@ I don't use the word 'agent' lightly. An agent takes responsibility. It knows wh
     readTime: 12,
     tags: ["Workday AI", "Rippling AI", "BambooHR AI", "Gusto AI", "HR automation", "AI agents"],
   },
+  {
+    slug: "skills-intelligence-hr-tech-2026",
+    title: "The Rise of Skills Intelligence in HR Tech 2026: From Job Descriptions to Talent Marketplaces",
+    excerpt: "Skills intelligence is reshaping HR technology in 2026. Discover how platforms like Workday, LinkedIn Learning, and Lattice are enabling skills-based workforce management, and learn practical steps for adopting a skills-first HR strategy.",
+    content: `# The Rise of Skills Intelligence in HR Tech 2026: From Job Descriptions to Talent Marketplaces
+
+Gone are the days when a job description was a static list of “must-have” degrees and years of experience. In 2026, **skills intelligence**—the real-time, AI-powered mapping, validation, and activation of skills across the workforce—is no longer a buzzword. It’s the operating system for modern HR. According to Gartner, **72% of HR leaders now prioritize skills-based talent practices**, up from just 34% in 2021—a seismic shift driven by persistent skill gaps, hybrid work complexity, and the urgent need for internal mobility.
+
+What changed? Not just better algorithms—but a fundamental rethinking of how organizations *see* people. Instead of roles defined by titles, we now see dynamic talent marketplaces where skills—not resumes—power assignments, promotions, mentoring, and even project staffing.
+
+## How Leading Platforms Are Powering the Shift
+
+Three platforms are setting the pace—not by adding “skills” as a checkbox, but by embedding skills intelligence into core workflows:
+
+- **Workday** integrates skills inference (via NLP analysis of performance reviews, projects, and learning activity) with its HCM suite. Its *Skills Cloud* now powers over 40% of internal mobility moves at Fortune 500 clients—reducing time-to-fill for internal roles by **37%**, per Workday’s 2025 Customer Impact Report.
+
+- **LinkedIn Learning**, backed by the world’s largest professional graph (over 1 billion profiles), uses behavioral signals—course completions, engagement depth, peer endorsements—to validate and weight skills dynamically. Its *Skills Insights Dashboard* helps HR teams spot emerging capability gaps *before* they impact delivery—e.g., identifying a 22% shortfall in AI prompt engineering skills across tech teams six months ahead of hiring surges.
+
+- **Lattice** embeds skills tagging directly into performance and development cycles. Managers tag observed skills during check-ins; employees self-endorse and add evidence (e.g., GitHub repos, presentation decks). This creates living, auditable skill profiles—used by 68% of Lattice customers to power stretch assignment matching and succession planning.
+
+## Practical Tips for HR Leaders Getting Started
+
+Adopting skills intelligence isn’t about swapping one HRIS for another—it’s about shifting mindset and measurement:
+
+1. **Start with outcomes, not taxonomy**: Don’t spend months building a perfect skills ontology. Begin with 3–5 high-impact business outcomes (e.g., “accelerate cloud migration,” “improve DEIB analytics”) and map the *critical skills* needed to deliver them.
+
+2. **Validate, don’t assume**: Use multi-source validation—learning completion + manager rating + project contribution—to avoid inflated self-assessments. Lattice customers who require ≥2 validation sources see 41% higher accuracy in skill attribution (2025 internal benchmark).
+
+3. **Activate internally first**: Launch a pilot talent marketplace for stretch projects or cross-functional task forces—*before* opening it for promotions or layoffs. Build trust through transparency and opt-in participation.
+
+## Tool Comparison Snapshot
+
+| Feature | Workday | LinkedIn Learning | Lattice | BambooHR |
+|--------|---------|-------------------|---------|----------|
+| **Skills Inference** | Strong (AI + structured data) | Strong (behavioral + network signals) | Moderate (manager + self + evidence) | Limited (manual entry only) |
+| **Integration Depth** | Native HCM & payroll | Standalone or via LMS API | Native performance & engagement | Basic HRIS—no skills layer |
+| **Talent Marketplace** | Yes (internal gigs, mentoring, projects) | Emerging (via Talent Solutions) | Yes (role-based matching + skill tags) | No |
+| **Best For** | Large enterprises needing end-to-end workflow | Upskilling focus + external benchmarking | Mid-market teams prioritizing development & mobility | SMBs focused on compliance & basics |
+
+*Note: 15Five and Culture Amp offer skills-tagging add-ons, but lack native inference engines or marketplace functionality—making them strong for feedback and engagement, but secondary for skills intelligence.*
+
+## Your Next Move—Actionable & Immediate
+
+Don’t wait for “perfect data.” In 2026, the most effective HR teams treat skills intelligence like cybersecurity: continuous, layered, and outcome-driven. Here’s your 30-day action plan:
+
+✅ **Audit one high-turnover role**: Map its top 5 required skills using internal performance data—not JD templates.  
+✅ **Run a 2-week “skills spotlight”**: Ask managers to tag 2 observed skills per direct report in your current platform—even if manually. Measure consistency.  
+✅ **Pilot a micro-marketplace**: Launch a voluntary, low-stakes internal project board (e.g., “Help design our new DEIB dashboard”)—filtering only by verified skills.
+
+Skills intelligence isn’t about replacing humans with algorithms. It’s about giving HR leaders—and employees—the clarity to act faster, move smarter, and build resilience from within. The talent marketplace isn’t coming. It’s already open—for those ready to step in.`,
+    author: "Elise Smit",
+    authorRole: "HR Technology Analyst & Content Lead",
+    date: "2026-07-21",
+    category: "HR Technology",
+    readTime: 7,
+    tags: ["Skills Intelligence", "Skills-Based HR", "Workday", "LinkedIn Learning", "Lattice", "HR Technology", "Workforce Planning", "2026"]
+  },
 ] as const;

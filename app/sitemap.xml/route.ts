@@ -36,8 +36,7 @@ const BLOG_SLUGS = [
     "ai-powered-ats-guide-2026",
     "dei-tools-2026-building-fairer-workplace",
     "employee-feedback-continuous-listening-2026",
-    "hr-compliance-automation-2026-guide",
-    "top-hr-software-workforce-management-2026",
+      "top-hr-software-workforce-management-2026",
   "comparing-hris-systems-2026-bamboohr-vs-rippling-vs-gusto-vs-workday",
   "employee-engagement-software-what-actually-works-in-2026",
   "skills-based-hiring-2026-ai-powered",
@@ -90,6 +89,7 @@ const CATEGORY_SLUGS = [
     "e-commerce",
     "education-and-e-learning",
     "website-builders",
+  "skills-intelligence-hr-tech-2026",
 ] as const;
 
 export async function GET() {
