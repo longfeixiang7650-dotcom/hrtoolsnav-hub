@@ -47,6 +47,7 @@ const BLOG_SLUGS = [
   "skills-intelligence-hr-tech-2026",
   "hr-tech-trends-2026",
   "time-and-attendance-software-2026-comparison",
+  "hr-compliance-automation-2026",
 ] as const;
 
 const TOOL_SLUGS = [
