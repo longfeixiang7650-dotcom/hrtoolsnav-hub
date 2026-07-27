@@ -49,6 +49,7 @@ const BLOG_SLUGS = [
   "time-and-attendance-software-2026-comparison",
   "hr-compliance-automation-2026",
   "building-unified-hr-data-pipeline-integration-strategy-2026",
+  "okr-software-comparison-2026-betterworks-vs-gtmhub-vs-ally-vs-perdoo-vs-workboard",
 ] as const;
 
 const TOOL_SLUGS = [
