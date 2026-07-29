@@ -51,6 +51,7 @@ const BLOG_SLUGS = [
   "building-unified-hr-data-pipeline-integration-strategy-2026",
   "okr-software-comparison-2026-betterworks-vs-gtmhub-vs-ally-vs-perdoo-vs-workboard",
   "employee-onboarding-software-2026-bamboohr-vs-rippling-vs-gusto-vs-workday-compared",
+  "performance-management-software-2026-15five-vs-lattice-vs-culture-amp-vs-leapsome",
 ] as const;
 
 const TOOL_SLUGS = [
