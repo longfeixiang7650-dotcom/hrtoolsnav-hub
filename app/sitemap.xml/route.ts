@@ -52,6 +52,7 @@ const BLOG_SLUGS = [
   "okr-software-comparison-2026-betterworks-vs-gtmhub-vs-ally-vs-perdoo-vs-workboard",
   "employee-onboarding-software-2026-bamboohr-vs-rippling-vs-gusto-vs-workday-compared",
   "performance-management-software-2026-15five-vs-lattice-vs-culture-amp-vs-leapsome",
+  "toggl-track-vs-clockify-vs-deputy-vs-homebase-time-and-attendance-2026",
 ] as const;
 
 const TOOL_SLUGS = [
