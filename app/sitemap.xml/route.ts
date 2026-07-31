@@ -53,6 +53,7 @@ const BLOG_SLUGS = [
   "employee-onboarding-software-2026-bamboohr-vs-rippling-vs-gusto-vs-workday-compared",
   "performance-management-software-2026-15five-vs-lattice-vs-culture-amp-vs-leapsome",
   "toggl-track-vs-clockify-vs-deputy-vs-homebase-time-and-attendance-2026",
+  "ai-recruiting-2026-data-what-works-what-doesnt",
 ] as const;
 
 const TOOL_SLUGS = [
