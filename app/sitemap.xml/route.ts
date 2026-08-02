@@ -54,6 +54,8 @@ const BLOG_SLUGS = [
   "performance-management-software-2026-15five-vs-lattice-vs-culture-amp-vs-leapsome",
   "toggl-track-vs-clockify-vs-deputy-vs-homebase-time-and-attendance-2026",
   "ai-recruiting-2026-data-what-works-what-doesnt",
+  "closing-skills-gap-2026-l-and-d-strategy",
+  "employee-benefits-administration-software-2026-ai-voluntary-benefits",
 ] as const;
 
 const TOOL_SLUGS = [
