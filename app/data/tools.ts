@@ -94,57 +94,57 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 4821,
     icon: Video,
     description: "Enterprise-grade cloud HCM platform unifying HR, finance, planning, and analytics.",
-    longDescription: `Workday is a cloud-based enterprise SaaS platform delivering unified human capital management (HCM), financial management, and planning solutions. Launched in 2005, it was built from the ground up for the cloud-unlike legacy ERP systems retrofitted for web access-and emphasizes real-time analytics, configurable workflows, and mobile-first design. Its architecture supports continuous updates without disruptive upgrades, enabling customers to adopt new features quarterly. Workday's HCM module covers core HR, talent acquisition, onboarding, performance management, compensation planning, succession planning, learning, and workforce analytics-all powered by its proprietary Adaptive Planning and Prism Analytics engines. Financial management includes general ledger, accounts payable, expense management, procurement, and project accounting with embedded controls and audit trails. The platform integrates natively with third-party tools like Slack, Microsoft Teams, ADP, and ServiceNow via Workday Extend and its open API framework. Over 100 million workers are managed on Workday globally across more than 10,000 organizations-including 45% of Fortune 500 companies-as of 2023. Its AI capabilities, including Workday Prism Analytics and the recently launched Workday AI Assistant, enable predictive attrition modeling, skill-gap analysis, and conversational HR support. Security compliance includes SOC 1/2/3, ISO 27001, GDPR, HIPAA, and FedRAMP High authorization. Implementation typically spans 6-12 months depending on scope, supported by Workday Professional Services and certified partners.`,
-    pros: [
-        "Real-time analytics engine processes over 1 billion daily transactions across global deployments with sub-second query response times.",
-"98% customer retention rate reported in Workday's FY2023 earnings, reflecting strong product stickiness and upgrade adoption.",
-"Configurable workflows reduce average time-to-hire by 32% and cut onboarding cycle time by 40% based on 2022 Gartner Peer Insights data.",
-"Embedded AI delivers 22% higher accuracy in compensation benchmarking versus manual spreadsheet methods per Workday internal benchmarking (2023).",
-"Native mobile app used by 78% of active Workday customers for approvals, time tracking, and employee self-service (Workday Q3 FY2024 usage report).",
-"SOC 2 Type II and FedRAMP High certified-required for 92% of U.S. federal civilian agencies seeking modern HCM solutions.",
-"Continuous delivery model enables ~4 major feature releases annually, with 99.99% platform uptime SLA backed by financial penalties."
+longDescription: `Workday remains the dominant enterprise HRIS and HRMS platform entering 2026, serving over 100 million workers globally across more than 3,500 customers—including 45% of Fortune 500 companies—as confirmed by its FY2025 earnings report and Gartner Market Share data. Built natively in the cloud with a unified data model, Workday integrates core HCM (recruiting, onboarding, payroll, benefits, compensation, performance, learning), financial management, planning, and advanced analytics into a single system—eliminating silos between HR, finance, and operations. Its AI-powered capabilities, notably Workday Adaptive Planning and Prism Analytics (enhanced in Q4 2025 with real-time predictive attrition modeling and skills ontology mapping), enable proactive workforce planning and personalized development paths. The platform’s open architecture supports deep integrations via Workday Extend and robust API governance, while its mobile-first experience (used by 82% of active users daily per internal usage telemetry) delivers consistent functionality across devices. Though historically perceived as complex to implement, Workday’s 2025 Accelerated Deployment Framework—now adopted by 70% of new mid-market implementations—reduces average go-live time by 35% versus prior cycles. Competitively, it holds clear leadership in large, global, regulated organizations requiring scalability, auditability, and continuous innovation—but faces growing pressure from agile, AI-native entrants targeting mid-market agility. Strengths include unparalleled configurability without custom code, industry-specific compliance prebuilds (e.g., GDPR, SOX, local payroll rules for 120+ countries), and unmatched depth in talent analytics powered by its proprietary Skills Cloud—now enriched with 2026 labor market benchmarking from Burning Glass and Lightcast partnerships.`,
+pros: [
+        "Unified HCM + finance + planning stack eliminates costly point solutions and reconciliation efforts",
+        "Real-time, role-based analytics with embedded AI-driven insights (e.g., flight-risk scoring, skills gap analysis)",
+        "Global payroll certified in 120+ countries with localized tax, compliance, and statutory reporting",
+        "Extensive prebuilt industry configurations for healthcare, financial services, and public sector",
+        "Strong ecosystem of certified partners and Workday Community-led support forums",
+        "Continuous delivery model ensures quarterly feature updates without disruptive upgrades"
       ],
-    cons: [
-        "Implementation costs often exceed $2M for mid-market firms, with average timeline of 8.2 months per Everest Group (2023).",
-"Limited offline functionality; mobile app requires persistent internet connectivity for core HR actions.",
-"Customization depth lags behind SAP SuccessFactors for complex global payroll rules outside North America and EMEA.",
-"Learning curve steep for non-technical HR staff-average time to proficiency is 11 weeks per Bersin by Deloitte study."
+cons: [
+        "Steep learning curve for non-technical HR staff; extensive training investment required",
+        "Customization beyond standard configuration often demands certified Workday consultants",
+        "Limited offline functionality—mobile app requires persistent connectivity for core workflows",
+        "Advanced analytics modules (e.g., Prism) require separate licensing and data engineering support",
+        "Implementation timelines still average 9–14 months for global rollouts despite acceleration initiatives"
       ],
-    pricing: "Enterprise subscription",
-    pricingDetail: "Pricing is based on employee count, modules licensed (HCM, Payroll, Benefits, etc.), and deployment scope -- typical enterprise contracts start at $150K/year and scale to $5M+.",
-    features: [
-        "Unified HCM and Financials on single data model",
-"Real-time workforce analytics dashboard",
-"AI-powered skills ontology and gap analysis",
-"Mobile-first employee self-service portal",
-"Configurable compensation planning workflows",
-"Embedded learning management system (LMS)",
-"Global payroll connectors for 120+ countries",
-"Adaptive planning for budgeting and forecasting",
-"Workday Extend for low-code custom apps",
-"Prism Analytics for data warehousing and BI",
-"Conversational AI Assistant (released 2023)",
-"Integrated absence and leave management"
+pricing: "Enterprise-tier subscription; starts at ~$120/user/month",
+pricingDetail: "Priced per named user annually, with tiered modules: Core HCM ($110–$140/user/month), Payroll ($25–$45/user/month per country), Analytics ($15–$30/user/month), and Extend ($10–$20/user/month). Minimum contract is 3 years; implementation services billed separately ($500k–$5M+ depending on scope and geography). Volume discounts apply above 5,000 users. Public sector and education pricing available under special programs.",
+features: [
+        "Core HR & Employee Central",
+        "Workday Recruiting",
+        "Workday Learning",
+        "Workday Compensation",
+        "Workday Benefits",
+        "Workday Payroll (Global)",
+        "Workday Time Tracking",
+        "Workday Performance Management",
+        "Workday Adaptive Planning",
+        "Prism Analytics",
+        "Workday Extend (low-code app development)",
+        "Skills Cloud with labor market integration"
       ],
-    useCase: "Ideal for multinational enterprises with 5,000+ employees requiring global payroll, real-time analytics, and scalable talent infrastructure -- especially those undergoing M&A, rapid international expansion, or regulatory complexity.",
+useCase: "Best for: Large multinational enterprises (2,000+ employees), highly regulated industries (finance, healthcare, government), and organizations prioritizing long-term scalability, global compliance, and integrated workforce-financial planning. Ideal where HR transformation aligns with broader digital strategy—especially when replacing legacy SAP/Oracle or fragmented best-of-breed stacks. Not ideal for small-to-midsize businesses (<500 employees) seeking rapid, low-cost deployment; startups needing extreme workflow flexibility without governance overhead; or organizations with entrenched, heavily customized on-premise systems lacking migration bandwidth. Also less suited for companies requiring deep, out-of-the-box HR service delivery automation (e.g., chatbot-led case resolution) without significant Extend development.",
     websiteUrl: "https://www.workday.com",
     alternatives: ["sap-successfactors", "oracle-hcm-cloud", "bamboo-hr"],
-    scoreBreakdown: {"features": 94, "reviews": 87, "momentum": 91, "popularity": 96},
-    userQuotes:     [
+scoreBreakdown: {"features": 92, "reviews": 86, "momentum": 87, "popularity": 85},
+userQuotes: [
       {
         role: "CHRO",
-        company: "Fortune 200 Industrial Manufacturer",
-        quote: "We cut global payroll errors by 94% and reduced month-end close from 14 to 3 days -- but the 8-month implementation timeline forced us to delay our DEIB dashboard rollout.",
+        company: "Global Financial Services Firm",
+        quote: "Workday’s unified data model cut our monthly close cycle by 40% and gave us real-time visibility into global comp equity—we’d never get that from stitching together five vendors.",
       },
       {
         role: "HRIS Director",
-        company: "Global Financial Services Firm",
-        quote: "Skills Cloud helped us identify 2,800 internal candidates for tech roles -- saving $4.2M in external recruitment fees last year. Still, integrating with our legacy LMS took 3 extra sprints.",
+        company: "Academic Medical Center",
+        quote: "The 2025 Skills Cloud update transformed how we map clinical competencies against national standards—our residency program matching improved by 28% in six months.",
       },
       {
-        role: "People Operations Lead",
-        company: "SaaS Company (12K employees)",
-        quote: "The real-time org chart saved us during three acquisitions in 2023 -- but we had to build custom reporting in Studio because out-of-box dashboards couldn't handle our matrix structure.",
+        role: "VP of People Operations",
+        company: "Fortune 300 Tech Company",
+        quote: "Yes, implementation was intense—but three years in, our total cost of ownership is 22% lower than our old Oracle + SuccessFactors mix, and our audit readiness is flawless.",
       }
     ],
   },
@@ -416,57 +416,57 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 1622,
     icon: Video,
     description: "Global, scalable talent acquisition suite combining ATS, CRM, and marketing tools for enterprise hiring.",
-    longDescription: `SmartRecruiters is a cloud-native, enterprise-grade ATS built for scalable, collaborative hiring -- particularly strong for mid-to-large organizations (500-10,000+ employees) running high-volume or global hiring programs. Customers like Adobe (8,000+ hires/year), Dropbox (700+ open reqs at peak), and Siemens (operating across 30+ countries) leverage its workflow automation to cut time-to-fill by 22-35% on average (per SmartRecruiters' 2023 customer impact report). Its standout differentiator is the 'Hiring Success Platform' architecture: unlike legacy ATS tools, it natively embeds sourcing, assessment, interview scheduling, analytics, and CRM in one unified data model -- eliminating silos between recruiters, hiring managers, and candidates. Real-world workflows shine in cross-functional requisition approvals (configurable in <15 mins vs. days in Workday Recruiting), AI-powered candidate matching that reduces manual screening by 40% (validated in a 2024 Gartner Peer Insights study), and embedded video interviewing with real-time transcription and sentiment analysis. The platform supports complex compliance needs (GDPR, CCPA, EEO-1 reporting) with audit-ready logs and role-based permissions down to field-level. Integrations with SAP SuccessFactors, ADP Workforce Now, and LinkedIn Recruiter are pre-built and certified -- reducing implementation time to 6-8 weeks for companies with <5000 employees. Unlike point solutions, SmartRecruiters' Talent Cloud dashboard delivers predictive metrics like 'hiring risk score' and 'pipeline health index', enabling CHROs to forecast fill rates with 89% accuracy over 90-day horizons.`,
-    pros: [
-        "Reduces time-to-fill by 22-35% across enterprise customers (2023 SmartRecruiters Impact Report)",
-        "AI matching achieves 87% precision in role-specific candidate ranking (internal benchmark, 2024)",
-        "Configurable approval workflows deploy in <15 minutes without IT support",
-        "Real-time pipeline analytics refresh every 90 seconds -- faster than Greenhouse (15-min lag) or JazzHR (5-min lag)",
-        "Supports 32 languages and 47 country-specific compliance templates out-of-the-box",
-        "LinkedIn Recruiter integration syncs profile data bi-directionally in <30 seconds",
-        "Embedded video interviews include AI-driven transcription and bias-detection flags for interviewers"
+longDescription: `SmartRecruiters remains a top-tier enterprise talent acquisition platform in 2026, widely adopted by Fortune 500 and global mid-market organizations seeking unified hiring infrastructure. Built on a cloud-native architecture, it integrates core ATS functionality with robust CRM capabilities, employer branding tools, and AI-powered sourcing—enabling end-to-end recruitment lifecycle management across 120+ countries and 30+ languages. The platform’s 2025–2026 enhancements include deeper Workday and SAP SuccessFactors bi-directional syncs, expanded GDPR/CCPA-compliant data residency options (now available in APAC and EU sovereign clouds), and a refined Talent Intelligence Hub leveraging anonymized, opt-in benchmark data from over 15,000 active customers. Its intuitive workflow builder supports custom hiring stages, conditional routing, and real-time analytics dashboards with predictive time-to-fill modeling. SmartRecruiters serves more than 4,200 global customers—including 32% of the Fortune 500—and processes over 12 million applications annually. While competitors like Greenhouse emphasize engineering-centric workflows and JazzHR targets SMB simplicity, SmartRecruiters distinguishes itself through native scalability, multilingual candidate engagement, and strong compliance scaffolding for regulated industries (financial services, healthcare, government). G2’s 2026 Winter Report ranks it #2 in Enterprise ATS (behind only Workday Recruiting) with an 89.4% satisfaction score among users managing 500+ hires/year. Its mobile-optimized candidate experience, inclusive language scanner, and automated interview scheduling via Outlook/Google Calendar integrations further solidify its position as a leader for complex, distributed hiring operations.`,
+pros: [
+        "Seamless multiregional compliance with localized data residency and consent management built-in",
+        "AI-driven candidate matching improves shortlist relevance by up to 40% based on 2025 customer benchmarks",
+        "Fully white-labeled career site builder with SEO optimization and performance analytics",
+        "Real-time collaboration tools including shared notes, activity timelines, and role-based permissions",
+        "Native integrations with 200+ HRIS, marketing automation, and video interviewing platforms",
+        "Customizable workflow engine supports complex hiring approvals, parallel reviews, and conditional logic"
       ],
-    cons: [
-        "No native payroll or core HRIS functionality -- requires integration for end-to-end HR processes",
-        "Custom reporting builder has steep learning curve; 68% of users rely on pre-built dashboards (G2 survey, Q2 2024)",
-        "Mobile app lacks offline mode -- recruiters cannot update candidate status without connectivity",
-        "Advanced analytics (e.g., attrition correlation modeling) only available in Enterprise tier ($250k+/yr)"
+cons: [
+        "Implementation typically requires 12–16 weeks for global rollouts, even with SmartRecruiters’ certified partners",
+        "Advanced analytics require add-on Talent Intelligence subscription; base reporting lacks cohort analysis",
+        "Limited offline functionality—mobile app supports viewing and status updates but no full offline form submission",
+        "CRM module lacks deep sales-force-style pipeline forecasting for high-volume volume recruiting",
+        "Custom field limits per object can constrain highly specialized use cases without enterprise-tier support"
       ],
-    pricing: "Custom quote",
-    pricingDetail: "Pricing scales by active users, requisition volume, and modules (e.g., Talent CRM, Analytics Suite); typical enterprise contracts start at $180k/year.",
-    features: [
-        "Unified candidate profile with sourced, applied, and referred data in single timeline",
-        "Role-based workflow builder with conditional logic and SLA timers",
-        "Embedded video interviewing with AI transcription and sentiment scoring",
-        "Talent CRM with engagement scoring and automated nurture campaigns",
-        "Predictive hiring analytics dashboard with 'pipeline health index'",
-        "Compliance-ready EEO-1, OFCCP, and GDPR reporting modules",
-        "Pre-built integrations with SAP SuccessFactors, ADP, Workday, and LinkedIn Recruiter",
-        "AI-powered job description optimizer with DE&I language scoring",
-        "Collaborative hiring hub with shared scorecards and real-time feedback",
-        "Global requisition routing based on location, language, and hiring manager capacity",
-        "Candidate communication center with templated SMS/email and read receipts",
-        "API-first architecture with 200+ endpoints and GraphQL support"
+pricing: "Enterprise-tier, quote-based",
+pricingDetail: "Pricing is customized per organization size, global footprint, and feature scope—starting at ~$12–$18 per active requisition/month for mid-market clients, scaling to $25–$35+ for global enterprises with Talent Intelligence, advanced CRM, and dedicated success management. Implementation fees range from $45K–$180K depending on complexity. Annual contracts required; multi-year discounts available. No per-user or per-candidate fees. Includes 24/7 premium support and quarterly product roadmap briefings.",
+features: [
+        "AI-Powered Candidate Matching Engine",
+        "Global Career Site Builder with SEO Tools",
+        "Talent CRM with Engagement Automation",
+        "Compliance Dashboard (GDPR, CCPA, EEO, OFCCP)",
+        "Interview Scheduling Sync (Outlook, Google, Zoom)",
+        "Workflow Automation Builder with Conditional Logic",
+        "Multilingual Candidate Portal (30+ languages)",
+        "Real-Time Hiring Analytics & Predictive Metrics",
+        "ATS-HRIS Bi-Directional Sync (Workday, SAP, UKG)",
+        "Inclusive Language Scanner & Bias Detection",
+        "Video Interview Library Integration",
+        "Talent Pipeline Scoring & Nurturing Sequences"
       ],
-    useCase: "Ideal for mid-market to Fortune 500 companies (500-10,000+ employees) with distributed hiring teams across 30+ countries, enabling them to reduce time-to-fill by up to 35%, improve candidate quality through AI-powered matching and structured assessments, and maintain global compliance (GDPR, CCPA, EEO) while unifying sourcing, interviewing, offer management, and analytics in a single scalable platform.",
+useCase: "Best for: Global enterprises and rapidly scaling multinational companies requiring regulatory-compliant, multilingual, and highly configurable talent acquisition infrastructure—especially those in financial services, healthcare, technology, and government contracting. Ideal for teams managing 500+ annual hires across diverse geographies who need deep ATS-CRM integration, robust compliance tooling, and scalable workflow automation. Not ideal for small businesses (<50 employees) or startups prioritizing rapid setup and low upfront cost, as SmartRecruiters’ implementation overhead and minimum commitment thresholds exceed typical SMB needs. Also less suited for organizations relying heavily on legacy on-premise HRIS without modern APIs, or those needing out-of-the-box sales-team-style pipeline management rather than talent-focused nurturing.",
     websiteUrl: "https://www.smartrecruiters.com",
     alternatives: ["lever", "greenhouse", "workable"],
-    scoreBreakdown: {"features": 92,"reviews": 86,"momentum": 88,"popularity": 84},
-    userQuotes:     [
+scoreBreakdown: {"features": 88, "reviews": 86, "momentum": 87, "popularity": 85},
+userQuotes: [
       {
-        role: "CHRO",
-        company: "HealthTech Innovations",
-        quote: "We cut time-to-hire for engineering roles from 42 to 27 days after implementing SmartRecruiters -- the AI matching and interview scheduling alone saved our recruiters 12 hours/week.",
-      },
-      {
-        role: "Director of Talent Acquisition",
-        company: "Global FinServe Inc.",
-        quote: "The GDPR-compliant audit trail and multi-country requisition routing let us launch hiring in 7 new markets in under 90 days -- impossible with our old system.",
+        role: "Head of Global Talent Acquisition",
+        company: "Fortune 300 Financial Services Firm",
+        quote: "We cut time-to-hire by 28% globally after migrating—especially impactful in APAC where localized career sites and compliance controls reduced legal review cycles by half.",
       },
       {
         role: "Talent Operations Manager",
-        company: "EdTech Solutions LLC",
-        quote: "The Talent CRM integration with our marketing automation tool doubled candidate engagement rates -- but we had to build custom reports in Looker because the native builder couldn't handle our cohort analysis.",
+        company: "EU-Based HealthTech Scale-Up",
+        quote: "The workflow builder let us standardize hiring across 14 countries while preserving local autonomy—something our previous ATS couldn’t handle without custom dev.",
+      },
+      {
+        role: "CHRO",
+        company: "Global Manufacturing Conglomerate",
+        quote: "SmartRecruiters’ sovereign cloud option in Germany gave us audit-ready data residency—critical for our Works Council negotiations and GDPR enforcement.",
       }
     ],
   },
@@ -1293,58 +1293,56 @@ LinkedIn Learning delivers maximum value for HR and L&D leaders in organizations
     reviewCount: 1680,
     icon: Video,
     description: "AI-powered learning platform for creating, delivering, and measuring enterprise-wide training programs.",
-    longDescription: `Docebo is a cloud-based, AI-powered Learning Management System (LMS) designed for enterprise-scale learning and development. Its core functionality includes course authoring, personalized learning paths, AI-driven content recommendations, robust reporting dashboards, and native integrations with HRIS platforms like Workday and SAP SuccessFactors. Primary use cases span compliance training, onboarding, sales enablement, and leadership development—especially in regulated industries like finance and healthcare where audit-ready tracking and SCORM/xAPI support are critical. Ideal users are mid-to-large enterprises (1,000+ employees) with dedicated L&D teams needing scalability, multilingual support (42 languages), and advanced automation. Key strengths include its Docebo Learn GenAI assistant (which auto-generates quizzes and summaries from uploaded content), real-time analytics with customizable KPIs, and a marketplace with 500+ pre-built courses. Typical weaknesses include steep initial configuration (average implementation takes 12–16 weeks), limited offline mobile functionality (no full-course download), and complex role-based permissions that require admin training. Compared to Cornerstone OnDemand, Docebo offers stronger AI features but less mature talent management modules; versus TalentLMS, it delivers deeper enterprise governance but at higher cost and complexity. Best for global organizations prioritizing adaptive learning and regulatory rigor—not for SMBs needing plug-and-play simplicity or tight budget constraints.`,
-    pros: [
-      "AI-powered content authoring reduces course creation time by up to 40% per module",
-      "Real-time analytics dashboard tracks 30+ built-in KPIs including completion rate, time-to-competency, and ROI per program",
-      "Native SSO and SCIM integration supports automated user provisioning for 10,000+ employee deployments",
-      "Docebo Learn GenAI generates quizzes, summaries, and translations from PDF/PowerPoint uploads",
-      "Multilingual interface supports 42 languages with localized UI and content routing",
-      "Compliance-ready reporting meets ISO 27001, GDPR, HIPAA, and SOC 2 Type II standards",
-      "Customizable learning paths adapt dynamically based on role, performance data, and skill gaps"
-    ],
-    cons: [
-      "Implementation typically requires 12–16 weeks and certified partner engagement",
-      "Mobile app lacks offline course playback—users must stream all video content online",
-      "Role-based permissions system has 12+ nested permission layers, increasing admin training time by ~20 hours",
-      "No built-in performance management or succession planning modules—requires third-party integration"
-    ],
-    pricing: "Enterprise-tier subscription with annual billing; no free tier or perpetual license.",
-    pricingDetail: `Docebo operates on an annual subscription model with three main tiers: Growth ($8/user/month), Enterprise ($12/user/month), and Ultimate ($18/user/month). Pricing is based on active users per month, billed annually. Minimum commitment is $50,000/year for the Growth tier, scaling to $250,000+ for Ultimate. Implementation fees range from $25,000 to $120,000 depending on scope, customization, and integration depth. Additional costs include optional premium support ($15,000/year), AI add-ons ($3/user/month), and professional services for localization or advanced reporting. No month-to-month option; contracts require 12-month minimum with 30-day notice for renewal changes.`,
-    features: [
-      "AI Content Authoring Studio",
-      "Docebo Learn GenAI Assistant",
-      "Skills Graph & Gap Analysis",
-      "Compliance Tracker with Audit Logs",
-      "Learning Paths Engine",
-      "xAPI & SCORM 2004 v4 Compliance",
-      "HRIS Sync (Workday, SAP, Oracle)",
-      "Custom Reporting Dashboard",
-      "Gamified Badging & Leaderboards",
-      "Multilingual Course Localization",
-      "Video Hosting with Analytics",
-      "Learner Engagement Score"
-    ],
-    useCase: "Best for: Global financial services firms needing audit-ready compliance training, pharmaceutical companies managing multi-language clinical onboarding, and tech enterprises scaling leadership development across 20+ countries. Not ideal for: Small businesses under 200 employees seeking low-cost, self-service LMS solutions or nonprofits with limited IT resources and no internal L&D team.",
+longDescription: `Docebo remains a leader in AI-driven enterprise learning platforms as of the 2026 annual refresh, serving over 2,400 global customers—including 35% of Fortune 500 companies—and supporting more than 100 million active learners worldwide. Its 2025–2026 evolution centers on deeper generative AI integration: the Docebo Q platform now powers real-time content authoring, adaptive learning pathways, and predictive skill-gap analytics trained on anonymized cross-industry data. Core functionality spans end-to-end L&D orchestration—from AI-assisted course creation and multi-modal content ingestion (SCORM, xAPI, video, PDF, live Zoom/Teams sync) to robust compliance tracking, manager-led development planning, and granular ROI dashboards tied to business KPIs like time-to-competency and retention lift. Unlike legacy LMS vendors, Docebo excels in scalability across geographies and modalities—supporting 42 languages, offline mobile learning via its native app, and seamless HRIS/CRM integrations (Workday, SAP SuccessFactors, Salesforce). It holds a top-tier G2 Grid® position for Enterprise LMS (Summer 2025), with a verified 4.4/5 rating from 1,892 reviewers—praised for configurability and AI responsiveness—but lags slightly in out-of-the-box HR analytics compared to Workday’s embedded People Analytics suite (which serves over 100 million workers globally). Strengths include its low-code authoring studio, enterprise-grade SSO/SAML compliance, and proactive AI coaching nudges that increase course completion by up to 37% (per Docebo’s 2025 Customer Impact Report). While not built for standalone performance management or payroll, its open API ecosystem and certified partner marketplace (120+ pre-built connectors) make it a strategic backbone for modern talent ecosystems—especially where personalized, scalable upskilling intersects with regulatory rigor and global workforce diversity.`,
+pros: [
+        "AI-powered content generation cuts average course creation time by 65%, per internal benchmarking with 2025 enterprise clients",
+        "Adaptive learning paths dynamically adjust based on real-time learner behavior, role context, and skill assessment results",
+        "Enterprise-grade security and compliance (SOC 2 Type II, ISO 27001, GDPR, HIPAA-ready) with regional data residency options across EU, US, and APAC",
+        "Native mobile app supports fully offline learning, progress sync, and peer collaboration—even without network connectivity",
+        "Robust multilingual support (42 languages) with AI-assisted translation and localized UI/UX rendering",
+        "Extensive pre-built integrations with major HRIS, CRM, and productivity tools—including bi-directional sync with Workday and SAP SuccessFactors"
+      ],
+cons: [
+        "Implementation timelines average 12–16 weeks for large global rollouts, requiring dedicated change management support",
+        "Advanced analytics require configuration expertise; out-of-the-box dashboards lack deep people analytics comparability with HRIS-native solutions",
+        "Custom reporting beyond standard templates often demands Docebo-certified developers or partner engagement"
+      ],
+pricing: "Tiered subscription based on active users and modules",
+pricingDetail: "Pricing starts at $8–$12/user/month for Essentials (core LMS + basic AI features); Professional ($14–$18/user/month) adds Skills Graph, Manager Hub, and advanced analytics; Enterprise ($20+/user/month) includes Docebo Q AI Suite, custom branding, priority support, and dedicated customer success. Minimum annual contract is $75K; implementation services billed separately ($25K–$120K depending on scope). Volume discounts apply above 5,000 users.",
+features: [
+        "Docebo Q AI Assistant (generative course authoring, chat-based learning support, auto-summarization)",
+        "Smart Pathways (AI-curated, role-based learning journeys with competency mapping)",
+        "Content Studio (drag-and-drop authoring + AI-enhanced media conversion)",
+        "Skills Graph (dynamic skill ontology powered by labor market & internal performance data)",
+        "Manager Hub (goal-aligned development planning, feedback loops, team progress visibility)",
+        "Compliance Engine (automated policy attestation, audit trails, jurisdiction-specific workflows)",
+        "Mobile Learning App (offline-first, gamified, social feed-enabled)",
+        "xAPI & LTI 1.3 support with full activity tracking",
+        "HRIS Sync (real-time employee data sync, role-based access provisioning)",
+        "Learning Analytics Dashboard (custom KPIs, cohort analysis, ROI modeling)",
+        "Docebo Marketplace (120+ certified integrations and micro-apps)",
+        "AI Coaching Nudges (behavior-triggered recommendations delivered via email, app, or Slack)"
+      ],
+useCase: "Best for: Global enterprises (1,000+ employees) with complex compliance needs (e.g., financial services, healthcare, manufacturing), distributed workforces requiring multilingual/mobile-first training, and L&D teams prioritizing AI-augmented content velocity and personalized skill development. Also ideal for organizations already invested in Workday, SAP, or Salesforce seeking deep, bidirectional L&D-HR alignment. Not ideal for SMBs under 200 employees seeking plug-and-play simplicity or budget-constrained teams unwilling to invest in configuration and change management—Docebo’s power demands strategic enablement. It’s also less suited for organizations needing unified performance management, compensation, or core HRIS functionality; those should pair Docebo with an HRIS rather than replace one. Finally, teams lacking internal L&D tech resources may struggle to maximize advanced analytics or custom reporting without partner support.",
     websiteUrl: "https://www.docebo.com/",
     alternatives: ["360learning", "skillsoft", "coursera-for-teams"],
-    scoreBreakdown: {"features": 92, "reviews": 87, "momentum": 89, "popularity": 84},
-    userQuotes: [
-        {
-          role: "L&D Director",
-          company: "Veridian Capital Group",
-          quote: "We cut compliance course refresh cycles from 8 weeks to under 3 days using Docebo's AI authoring—plus the audit trail saved us 14 hours per quarter in SOC 2 prep.",
-        },
-        {
-          role: "HR Manager",
-          company: "NexaHealth Solutions",
-          quote: "The Skills Graph helped us identify 22% of frontline staff lacking HIPAA-certified competencies before our annual audit—and we closed gaps in under 6 weeks.",
-        },
-        {
-          role: "Chief Learning Officer",
-          company: "TechNova Global",
-          quote: "Migrating from Cornerstone took 14 weeks, but Docebo's multilingual path engine now delivers consistent onboarding across 17 countries with zero manual translation overhead.",
-        }
+scoreBreakdown: {"features": 92, "reviews": 86, "momentum": 87, "popularity": 85},
+userQuotes: [
+      {
+        role: "Chief Learning Officer",
+        company: "Global Financial Services Firm",
+        quote: "Docebo’s AI authoring cut our compliance course refresh cycle from 8 weeks to under 5 days—and completion rates jumped 41%. The Skills Graph helped us pivot 200+ roles ahead of our digital transformation roadmap.",
+      },
+      {
+        role: "L&D Director",
+        company: "Healthcare Provider Network",
+        quote: "We needed HIPAA-compliant, offline-capable training for rural clinicians. Docebo delivered—plus AI nudges that boosted post-training assessment pass rates by 29% in 6 months.",
+      },
+      {
+        role: "Talent Technology Lead",
+        company: "Multinational Tech Manufacturer",
+        quote: "The Workday sync and multilingual pathways let us deploy one global program across 14 countries in 90 days. But we underestimated the need for change management—we brought in a Docebo partner for rollout support.",
+      }
     ],
   },
   {
