@@ -57,6 +57,7 @@ const BLOG_SLUGS = [
   "closing-skills-gap-2026-l-and-d-strategy",
   "employee-benefits-administration-software-2026-ai-voluntary-benefits",
   "internal-mobility-talent-marketplaces-2026",
+  "hr-software-selection-scorecard-buyers-guide-2026",
 ] as const;
 
 const TOOL_SLUGS = [
