@@ -59,6 +59,7 @@ const BLOG_SLUGS = [
   "internal-mobility-talent-marketplaces-2026",
   "hr-software-selection-scorecard-buyers-guide-2026",
   "employee-service-delivery-hr-helpdesk-software-2026",
+  "employee-experience-data-driven-strategy-2026",
 ] as const;
 
 const TOOL_SLUGS = [

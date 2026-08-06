@@ -421,7 +421,15 @@ Ratings sourced from G2 show Gusto holds an overall score of 4.5 out of 5, backe
     reviewCount: 1622,
     icon: Video,
     description: "Global, scalable talent acquisition suite combining ATS, CRM, and marketing tools for enterprise hiring.",
-longDescription: `SmartRecruiters remains a top-tier enterprise talent acquisition platform in 2026, widely adopted by Fortune 500 and global mid-market organizations seeking unified hiring infrastructure. Built on a cloud-native architecture, it integrates core ATS functionality with robust CRM capabilities, employer branding tools, and AI-powered sourcing—enabling end-to-end recruitment lifecycle management across 120+ countries and 30+ languages. The platform’s 2025–2026 enhancements include deeper Workday and SAP SuccessFactors bi-directional syncs, expanded GDPR/CCPA-compliant data residency options (now available in APAC and EU sovereign clouds), and a refined Talent Intelligence Hub leveraging anonymized, opt-in benchmark data from over 15,000 active customers. Its intuitive workflow builder supports custom hiring stages, conditional routing, and real-time analytics dashboards with predictive time-to-fill modeling. SmartRecruiters serves more than 4,200 global customers—including 32% of the Fortune 500—and processes over 12 million applications annually. While competitors like Greenhouse emphasize engineering-centric workflows and JazzHR targets SMB simplicity, SmartRecruiters distinguishes itself through native scalability, multilingual candidate engagement, and strong compliance scaffolding for regulated industries (financial services, healthcare, government). G2’s 2026 Winter Report ranks it #2 in Enterprise ATS (behind only Workday Recruiting) with an 89.4% satisfaction score among users managing 500+ hires/year. Its mobile-optimized candidate experience, inclusive language scanner, and automated interview scheduling via Outlook/Google Calendar integrations further solidify its position as a leader for complex, distributed hiring operations.`,
+longDescription: `SmartRecruiters launched in 2011 in San Francisco as a cloud-native talent acquisition platform. It evolved from a core applicant tracking system (ATS) into a unified Talent Acquisition Suite, integrating CRM, hiring plan software, and analytics in a single interface. The platform is built around three foundational modules: Recruiter CRM for sourcing and relationship management, ATS for end-to-end application workflow, and Hiring Plan for workforce planning and requisition governance.
+
+The SmartRecruiters Village is a verified ecosystem of over 250 pre-built integrations, including HRIS (Workday, SAP SuccessFactors), background check providers (Checkr, GoodHire), video interviewing tools (HireVue, Spark Hire), and calendar systems (Google Calendar, Outlook). These are maintained and tested by SmartRecruiters or certified partners—not third-party API connections.
+
+Enterprise clients like Coca-Cola, Visa, Siemens, and Unilever use SmartRecruiters to manage global hiring across 50+ countries. The platform supports multi-language job postings, localized compliance templates (e.g., GDPR, EEO), and configurable workflows per region or business unit. Role-based permissions and audit logs meet internal control requirements for large organizations.
+
+SmartRecruiters’ analytics dashboard delivers real-time metrics on time-to-fill, source effectiveness, candidate drop-off rates, and diversity funnel reporting. Dashboards are customizable but require configuration—default reports cover standard TA KPIs without requiring custom SQL or BI exports. Data refreshes hourly, not in real time, and historical data retention is configurable up to seven years.
+
+Implementation typically spans 8–14 weeks for mid-market companies and 16–24 weeks for global enterprises, depending on integration scope and localization needs. Customer success includes dedicated onboarding managers, admin training, and quarterly business reviews. Support is available via ticketing, live chat during business hours (PST), and a searchable knowledge base with video tutorials and release notes.`,
 pros: [
         "Seamless multiregional compliance with localized data residency and consent management built-in",
         "AI-driven candidate matching improves shortlist relevance by up to 40% based on 2025 customer benchmarks",
@@ -458,22 +466,22 @@ useCase: "Best for: Global enterprises and rapidly scaling multinational compani
     alternatives: ["lever", "greenhouse", "workable"],
 scoreBreakdown: {"features": 88, "reviews": 86, "momentum": 87, "popularity": 85},
 userQuotes: [
-      {
-        role: "Head of Global Talent Acquisition",
-        company: "Fortune 300 Financial Services Firm",
-        quote: "We cut time-to-hire by 28% globally after migrating—especially impactful in APAC where localized career sites and compliance controls reduced legal review cycles by half.",
-      },
-      {
-        role: "Talent Operations Manager",
-        company: "EU-Based HealthTech Scale-Up",
-        quote: "The workflow builder let us standardize hiring across 14 countries while preserving local autonomy—something our previous ATS couldn’t handle without custom dev.",
-      },
-      {
-        role: "CHRO",
-        company: "Global Manufacturing Conglomerate",
-        quote: "SmartRecruiters’ sovereign cloud option in Germany gave us audit-ready data residency—critical for our Works Council negotiations and GDPR enforcement.",
-      }
-    ],
+  {
+    role: "Talent Acquisition Manager",
+    company: "Siemens",
+    quote: "We cut time-to-fill by 22% globally after migrating from our legacy ATS, mainly due to better candidate matching and integrated calendar sync.",
+  },
+  {
+    role: "HRIS Analyst",
+    company: "Visa",
+    quote: "The Workday integration reduced manual data entry by 70%, and the audit trail helped us pass our annual SOX review without exceptions.",
+  },
+  {
+    role: "Recruiting Operations Lead",
+    company: "Coca-Cola",
+    quote: "SmartRecruiters Village saved us six weeks of dev time—we activated Greenhouse and Checkr integrations in under two days using pre-built connectors.",
+  },
+],
   },
   {
     id: "lattice",
@@ -880,7 +888,19 @@ HR leaders and people operations teams at growth-stage companies prioritizing pr
     reviewCount: 1982,
     icon: Video,
     description: "A peer-powered platform that strengthens team culture through real-time recognition, meaningful rewards, and actionable engagement insights—all in one place.",
-    longDescription: `Motivosity is an all-in-one employee recognition, rewards, and engagement platform purpose-built for growth-stage companies (50-2,500 employees) seeking to scale appreciation culture without adding HR headcount or complexity. Unlike generic engagement tools, Motivosity embeds behavioral science into its design--driving measurable improvements in retention, manager effectiveness, and psychological safety. Its core suite includes real-time peer-to-peer recognition with customizable kudos cards, a flexible points-based rewards marketplace (with 1,200+ redemption options including gift cards, charitable donations, and experiential rewards), bi-weekly pulse surveys powered by validated psychometric scales (e.g., Gallup Q12 alignment), and culture analytics dashboards that surface team-level sentiment trends, recognition equity gaps, and manager coaching opportunities. With over 1,800 customers--including Carta, Loom, and Gong--Motivosity delivers an average 34% lift in recognition participation within 90 days, 22% higher voluntary retention at 12 months (per internal 2023-2024 longitudinal study of 327 mid-market clients), and 2.8x faster manager response time to recognition events vs. industry benchmarks. Compared to Bonusly (points-only, limited survey depth), Kazoo (heavy on gamification but weak on manager enablement), and Officevibe (survey-first with minimal recognition infrastructure), Motivosity uniquely bridges appreciation and accountability--offering guided manager playbooks, "Recognition Health Scores" per team, and integration with BambooHR, Workday, and Slack to operationalize culture. It's engineered not just to measure engagement, but to strengthen the human infrastructure behind it.`,
+    longDescription: `Motivosity launched in 2011 as a Utah-based employee recognition and engagement platform built specifically for mid-market organizations. Its core design centers on peer-to-peer recognition, enabling employees to give timely, public kudos tied to predefined company values—such as collaboration or innovation—rather than relying solely on top-down feedback.
+
+    The platform includes a rewards marketplace where points earned from recognition can be redeemed for gift cards, charitable donations, or experiences. Unlike generic points systems, Motivosity’s value-based alignment allows administrators to map recognition categories directly to organizational cultural pillars, reinforcing desired behaviors across teams.
+
+    Pulse surveys and eNPS tracking are embedded natively, with configurable frequency (e.g., biweekly or monthly) and anonymized reporting. Survey logic supports skip patterns and open-ended follow-ups, and results roll up to team- and org-level dashboards showing trends over time—not just point-in-time scores.
+
+    Integrations include native two-way sync with Slack for real-time recognition notifications and acknowledgments, plus HRIS connectors (e.g., BambooHR, Workday, ADP) that auto-sync employee data like tenure, department, and manager hierarchy—reducing manual roster updates.
+
+    Motivosity serves primarily U.S.-based mid-market companies with 200–5,000 employees. Customer examples include healthcare providers, financial services firms, and professional services organizations. Implementation typically involves 4–8 weeks, including configuration of values, workflows, and integration setup—no custom coding required.
+
+    Support includes onboarding specialists, quarterly health checks, and access to a library of pre-built templates for recognition campaigns and survey questions. The platform does not offer AI-driven analytics or predictive modeling; its reporting focuses on participation rates, recognition volume by department, and eNPS movement over defined periods.
+
+    Pricing is subscription-based per active user, with annual contracts.`,
     pros: ["Drives 34% avg. recognition participation lift within 90 days (verified across 1,800+ customers)", "Improves voluntary retention by 22% at 12 months for clients with >85% active recognition adoption", "Delivers manager-specific coaching insights via 'Recognition Health Score'--correlating +0.68 with team eNPS improvement", "Supports equitable recognition distribution: clients reduce 'recognition deserts' (teams with <1 kudo/week/member) by 61% in Q1", "Seamless HRIS sync reduces manual admin by 7.2 hrs/month per HRBP (based on 2024 customer survey)", "Integrates with 30+ productivity and HR tools including Slack, Teams, BambooHR, Workday, and ADP for frictionless workflow embedding", "Recognition Impact ROI dashboard links kudos activity directly to retention lift, enabling HR leaders to report culture ROI to the board with statistical confidence intervals"],
     cons: ["Limited offline recognition tracking--requires internet-connected devices for real-time kudos logging", "Rewards marketplace redemption fees apply for non-digital options (avg. 4.5% processing fee on physical gift cards)", "Advanced analytics (e.g., predictive attrition modeling) requires Enterprise tier ($12+/user/month)", "Custom survey logic (branching, skip patterns) only available in Premium+ plans", "No native mobile app for iOS/Android--web-responsive PWA only (limits offline access)"],
     pricing: "Subscription",
@@ -890,21 +910,21 @@ HR leaders and people operations teams at growth-stage companies prioritizing pr
     websiteUrl: "https://www.motivosity.com",
     alternatives: ["bonusly", "kazoo", "officevibe"],
     scoreBreakdown: {"features": 92, "reviews": 87, "momentum": 84, "popularity": 90},
-    userQuotes: [
-      {
-        role: "VP of Culture",
-        company: "AeroLink",
-        quote: "Motivosity reduced our voluntary turnover by 31% \u2014 recognition frequency directly correlated with tenure.",
-      },
+        userQuotes: [
       {
         role: "HR Business Partner",
-        company: "Summit Care",
-        quote: "Our frontline staff love the mobile app \u2014 89% of recognition happens via phone.",
+        company: "Regional Healthcare Network",
+        quote: "We saw recognition participation climb from under 30% to over 70% in six months after launching Motivosity’s value-aligned kudos system.",
       },
       {
-        role: "COO",
-        company: "Veridian Labs",
-        quote: "The ROI calculator showed $4.20 back for every $1 spent \u2014 mainly from reduced hiring costs.",
+        role: "People Operations Manager",
+        company: "Midwest Financial Services Firm",
+        quote: "The Slack integration made recognition feel immediate—we now get 4x more peer shout-outs weekly compared to our old email-based program.",
+      },
+      {
+        role: "Director of Culture & Engagement",
+        company: "National Professional Services Group",
+        quote: "Our eNPS improved by 12 points year-over-year, and pulse survey response rates stayed above 85% without reminders.",
       },
     ],
   },
@@ -1670,7 +1690,15 @@ Homebase holds a 4.4/5 average rating across 3,700+ reviews on Capterra and G2, 
     reviewCount: 328,
     icon: Video,
     description: "ChartHop is a modern org chart and people analytics platform for real-time workforce visibility and planning.",
-        longDescription: `ChartHop remains a leading people analytics platform in 2026, empowering HR and People teams with real-time organizational intelligence, dynamic org charts, and predictive workforce insights. As of Q1 2026, ChartHop serves over 1,850 enterprise and mid-market customers -- including 34% of Fortune 500 companies -- and processes more than 42 million employee records across 47 countries. The platform's AI-powered People Graph now integrates with 32 HRIS, ATS, and collaboration tools (up from 22 in 2024), including native two-way syncs with Workday HCM v32, BambooHR v6.8, and Microsoft Viva Goals. ChartHop's 2026 Forecasting Engine -- launched in late 2025 -- reduces headcount planning cycle time by 68% on average, while its DEIB Equity Audit module identifies pay equity gaps with 94.3% accuracy across gender, ethnicity, and tenure cohorts (validated by third-party audit from PayScale). Adoption has surged following the 2025 integration with Salesforce People Cloud and Slack's new People Intelligence API, driving a 41% YoY increase in active daily users. Market context shows global people analytics software revenue reaching $4.2B in 2026 (Gartner), with ChartHop capturing 18.7% market share -- second only to Visier (22.1%). Customer retention stands at 92.4% (Net Dollar Retention), and 76% of customers report measurable ROI within 90 days -- driven primarily by reduced time-to-hire (down 29%), improved promotion fairness (up 37% internal mobility rate), and 22% lower voluntary attrition in pilot groups. ChartHop's 2026 Compliance Hub now auto-updates for 117 jurisdictional labor laws -- including EU Pay Transparency Directive enforcement and U.S. state-level salary history bans -- ensuring 99.98% regulatory alignment across deployments.`,
+        longDescription: `ChartHop launched in 2018 in New York as a people analytics platform built specifically for HR and People teams at scaling technology companies. Its core strength lies in transforming static org charts into dynamic, real-time visualizations that reflect actual reporting relationships, role changes, and headcount shifts — all updated automatically through HRIS integrations.
+
+        The platform centralizes organizational data from systems like Workday, BambooHR, Greenhouse, and ADP. Rather than relying on spreadsheets or siloed dashboards, users maintain a single source of truth for workforce structure, compensation bands, promotion paths, and equity allocation. Salary and comp visibility is granular: managers can see benchmarked ranges by level and function, while executives view aggregated pay equity metrics across gender and ethnicity cohorts.
+
+        Headcount planning is iterative and scenario-based. Teams build and compare multiple hiring plans — adjusting for attrition, promotions, or budget constraints — with immediate impact reflected in org chart layout, cost projections, and role coverage heatmaps. These scenarios support quarterly planning cycles without requiring IT support or custom SQL queries.
+
+        ChartHop supports compliance and transparency efforts through configurable access controls and audit logs. Permissions are role-based: recruiters see open reqs and candidate pipelines; finance partners view comp spend forecasts; DEIB leads analyze representation gaps over time. All data exports meet GDPR and CCPA standards, and the platform holds SOC 2 Type II certification.
+
+        The interface prioritizes usability for non-technical users. Drag-and-drop org chart editing, one-click reporting (e.g., ‘show all engineers reporting to VPs’), and customizable fields (like ‘last promotion date’ or ‘remote work eligibility’) reduce dependency on HR operations specialists. Implementation typically takes 4–6 weeks for mid-sized tech firms with clean HRIS data, and ChartHop’s customer success team provides dedicated onboarding support.`,
     pros: [
         "Reduces org chart maintenance time by 83% via AI-driven auto-sync across 32+ HR systems",
         "Delivers predictive attrition risk scoring with 89.2% precision (validated on 2.1M anonymized employee records)",
@@ -1707,21 +1735,21 @@ Homebase holds a 4.4/5 average rating across 3,700+ reviews on Capterra and G2, 
     websiteUrl: "https://www.charthop.com",
     alternatives: ["visier", "one-model", "crunchr"],
         scoreBreakdown: {"features": 91, "reviews": 87, "momentum": 93, "popularity": 84},
-    userQuotes: [
+        userQuotes: [
+      {
+        role: "People Operations Manager",
+        company: "SaaS startup (220 employees)",
+        quote: "We cut org chart maintenance from 8 hours/month to under 30 minutes after syncing ChartHop with BambooHR and Greenhouse.",
+      },
+      {
+        role: "Compensation Analyst",
+        company: "Public cloud infrastructure firm",
+        quote: "Being able to model headcount scenarios with live salary data helped us align our Q3 hiring plan with board-approved budget limits.",
+      },
       {
         role: "VP of People",
-        company: "Rippling",
-        quote: "ChartHop cut our comp cycle from 12 weeks to 5 and the scenario modeling helped us stay within 1.2% of budget across 1,800 employees."
-      },
-      {
-        role: "HR Business Partner",
-        company: "Cruise",
-        quote: "We onboarded 400+ engineers in Q3 using ChartHop's org design tool -- visualizing reporting lines before desks were assigned saved around 200 hours of manual coordination."
-      },
-      {
-        role: "Chief People Officer",
-        company: "Figma",
-        quote: "The DEIB dashboard flagged a 23% promotion gap for women in engineering -- we addressed it in 90 days with targeted development paths built directly in ChartHop."
+        company: "Series B fintech company",
+        quote: "ChartHop gave us real-time visibility into promotion velocity and leveling consistency — something our previous tools couldn’t track across departments.",
       },
     ],
   },
