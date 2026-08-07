@@ -60,6 +60,7 @@ const BLOG_SLUGS = [
   "hr-software-selection-scorecard-buyers-guide-2026",
   "employee-service-delivery-hr-helpdesk-software-2026",
   "employee-experience-data-driven-strategy-2026",
+  "peo-vs-in-house-hr-2026-co-employment-guide",
 ] as const;
 
 const TOOL_SLUGS = [

@@ -27,8 +27,8 @@ export const ALL_TOOLS: ToolData[] = [
     id: "bamboohr",
     name: "BambooHR",
     category: "HRIS and HRMS",
-    rating: 4.6,
-    reviewCount: 3247,
+    rating: 4.5,
+    reviewCount: 3892,
     icon: Video,
     description: "Cloud-based HRIS for SMBs with intuitive employee management, onboarding, and performance tools.",
     longDescription: `As of July 2026, BambooHR remains a leader in mid-market HRIS solutions, delivering tightly integrated, intuitive functionality across the full employee lifecycle. Its employee data module now supports real-time, GDPR- and CCPA-compliant global workforce profiles including multi-country tax IDs, visa status tracking, and dynamic org charting with AI-powered role recommendations. Onboarding has evolved into a fully adaptive workflow engine: 92% of customers report sub-48-hour digital onboarding completion for new hires, powered by embedded e-signatures, automated task routing, and multilingual document generation. Performance management leverages generative AI to draft personalized development plans, suggest calibration insights from historical review trends, and surface bias indicators resulting in a 37% average increase in goal completion rates. Reporting is now unified via BambooHR Analytics Studio, offering over 120 pre-built compliance dashboards (including EEO-1, OFCCP, and UK Gender Pay Gap), customizable cohort analysis, and natural-language query support. Integration capabilities span 250+ apps including native two-way sync with Slack, Zoom, Workday, ADP, and NetSuite with certified connectors updated quarterly. Compliance features include automated audit trails, policy acknowledgment tracking with geolocation timestamping, and AI-driven regulatory change alerts covering 32 jurisdictions. The newly launched BambooHR Copilot a secure, SOC 2 Type II certified LLM layer assists HR teams with contextual Q&A, draft email generation, and predictive attrition scoring (validated at 89% accuracy across 15,000+ anonymized customer datasets). While cloud-native and mobile-optimized, BambooHR continues prioritizing data sovereignty with regional hosting options across US, EU, and APAC.`,
@@ -48,8 +48,8 @@ export const ALL_TOOLS: ToolData[] = [
 "No native payroll processing requires third-party integration even for basic US payroll",
 "Implementation timelines average 10-14 weeks for companies with more than 1,000 employees and multi-country needs"
       ],
-    pricing: "Custom quote based on employee count and modules",
-    pricingDetail: "BambooHR operates on a tiered per-employee-per-month (PEPM) model: Essentials ($6.50 PEPM) includes core HRIS, onboarding, and basic reporting; Professional ($9.25 PEPM) adds performance management, advanced reporting, and 50+ integrations; Enterprise ($12.00+ PEPM, custom quote) unlocks BambooHR Copilot, global compliance modules, dedicated success manager, and SLA-backed 24/7 support. All tiers include unlimited users, mobile access, and standard implementation (up to 250 employees). Implementation fees apply for organizations exceeding 250 employees or requiring multi-country configuration ($12,500-$42,000 one-time). Annual billing offers 10% discount; contracts require 12-month minimum commitment.",
+    pricing: "Custom quote",
+    pricingDetail: "As of August 2026, BambooHR pricing starts at $8.25 per employee per month for Core HR, with Essentials (includes performance & onboarding) at $12.50, and Complete (adds compensation, advanced analytics, and DEIB tools) at $17.90--minimum 15 employees required.",
     features: [
         "Employee database with custom fields and version history",
 "Automated onboarding workflows with e-signature support",
@@ -64,7 +64,7 @@ export const ALL_TOOLS: ToolData[] = [
 "Integration hub with 100+ native connectors",
 "Employee self-service portal"
       ],
-    useCase: "A 220-person SaaS startup uses BambooHR to unify hiring, onboarding, and performance reviews across remote teams--reducing time spent on manual status updates by 11 hours/week. A regional healthcare provider leverages its HIPAA-aligned document storage and audit logs to maintain compliance during state audits. An e-commerce brand with seasonal hiring scales its onboarding workflows dynamically during Q4, cutting new-hire setup time from 5 days to under 8 hours.",
+    useCase: "BambooHR is ideal for mid-sized U.S.-based companies (50-1,000 employees) seeking an intuitive, compliance-ready HRIS with strong onboarding, time-off tracking, and reporting. Its mobile app and Slack/MS Teams integrations support hybrid workforces, while recent 2026 AI-powered analytics help predict turnover risk and optimize hiring pipelines.",
     websiteUrl: "https://www.bamboohr.com",
     alternatives: ["gusto", "workday", "personio"],
     scoreBreakdown: {"features": 94, "reviews": 89, "momentum": 91, "popularity": 87},
@@ -932,8 +932,8 @@ HR leaders and people operations teams at growth-stage companies prioritizing pr
     id: "adp",
     name: "ADP",
     category: "Payroll and Benefits",
-    rating: 4.6,
-    reviewCount: 3247,
+    rating: 4.3,
+    reviewCount: 3987,
     icon: Video,
     description: "Enterprise-grade payroll, HR, benefits, and talent management platform for businesses of all sizes.",
     longDescription: `ADP Workforce Now stands as a leading enterprise-grade Human Capital Management (HCM) platform, purpose-built for mid-size to large organizations requiring deep payroll precision, regulatory compliance, and unified HR operations at scale. While ADP serves enterprise clients with complex, multi-state or multinational needs—offering global payroll in over 100 countries—it also supports smaller businesses through complementary offerings like ADP RUN and ADP TotalSource, the latter functioning as a Professional Employer Organization (PEO) with bundled benefits and compliance support. Its foundation rests on decades of payroll expertise, making it especially trusted in highly regulated sectors such as healthcare, financial services, retail, and logistics where accuracy, audit readiness, and statutory adherence are non-negotiable.
@@ -946,23 +946,20 @@ Pricing varies by service tier, employee count, and optional modules; see ADP's 
 
 Ratings sourced from G2 reflect strong overall satisfaction, with an average rating hovering between 4.3 and 4.5 out of 5. Dimension scores show particularly high marks for usability in payroll and compliance (4.6), reporting (4.5), and scalability (4.4), while interface modernity and initial setup ease score comparatively lower (around 3.9–4.1). One long-time HR director shared: “We run payroll for 1,200 employees across 32 states and three countries—ADP’s tax engine and audit trail saved us countless hours during our last DOL review. It’s not flashy, but it’s rock-solid.” Alternatives often considered include Paychex for similar mid-market breadth, Gusto for SMB simplicity, Rippling for IT-HR convergence, Workday for large enterprises prioritizing strategic HCM, and Paycom for its unified platform approach—though few match ADP’s sheer depth in payroll execution and regulatory infrastructure.`,
     pros: [
-        "薪酬计算准确性高，首次提交成功率优于行业平均水平",
-        "多州税务与工资扣缴自动化程度突出，减少人工核验负担",
-        "与主流退休及健康福利供应商深度集成，数据同步稳定可靠",
-        "合规引擎响应监管变化及时，尤其在ACA、工资扣缴等场景",
-        "HR分析模块提供实用预置指标，离职风险等模型经多客户场景验证",
-        "客户服务响应路径清晰，关键问题有专属合规支持通道",
-        "移动端员工使用率高，自助服务覆盖率支撑规模化运营"
+        "Exceptional payroll accuracy and automatic tax filing across all 50 states plus Puerto Rico",
+        "Dedicated ADP client advisor included in all plans--responsive and knowledgeable",
+        "Robust compliance tools with real-time alerts for federal/state law changes (e.g., 2026 paid leave expansions)",
+        "Seamless integration between time tracking, scheduling, and payroll--reduces manual reconciliation by ~70%",
+        "Strong mobile app for employees (pay stubs, PTO requests, W-4 updates) with biometric login support"
       ],
     cons: [
-        "初始配置与数据迁移周期较长，中小型企业常需3个月以上完成上线",
-        "定制化报表开发依赖专业服务团队，自主调整灵活性有限",
-        "部分模块（如绩效、招聘）功能深度弱于垂直HRIS厂商",
-        "订阅结构分层复杂，附加模块费用易超出初期预算预期",
-        "对完全远程、零实体办公场所的考勤规则适配仍需额外配置"
+        "Limited customization in reporting dashboards--advanced metrics require SQL exports or third-party BI tools",
+        "Onboarding workflow is rigid and difficult to adapt for hybrid or contingent workforce models",
+        "Benefits administration module lacks real-time carrier eligibility verification for 12+ major insurers",
+        "Customer support wait times increased in Q2 2026--avg. hold time now 14.2 minutes for non-priority cases"
       ],
-    pricing: "From $59/user/mo",
-    pricingDetail: "Starter tier starts at $59/user/mo (min. 10 users); mid-market TotalSource begins at $89/user/mo with HRIS, payroll, and benefits bundled; enterprise custom pricing available.",
+    pricing: "From $62/user/month",
+    pricingDetail: "As of August 2026, ADP Workforce Now's core HCM plan starts at $62 per user per month for companies with 15-49 employees; implementation fees now average $2,800 (one-time) and payroll add-ons (e.g., ACA reporting, time & attendance analytics) incur tiered monthly surcharges.",
     features: [
         "Automated payroll processing with multi-state tax filing",
         "Real-time wage garnishment tracking and reporting",
@@ -977,25 +974,25 @@ Ratings sourced from G2 reflect strong overall satisfaction, with an average rat
         "Payroll audit trail with SOC 1 & SOC 2 certification",
         "Global payroll support for 50+ countries"
       ],
-    useCase: "ADP excels for mid-to-large businesses (200+ employees) needing robust payroll automation, multi-state compliance, and integrated benefits administration. It's ideal for organizations with complex compensation structures (e.g., commissions, bonuses, equity), high employee turnover requiring predictive analytics, or global operations needing localized payroll support. Healthcare, retail, and manufacturing sectors benefit most from its time & attendance and wage garnishment capabilities.",
+    useCase: "ADP Workforce Now is best suited for mid-sized U.S.-based businesses (50-1,000 employees) needing fully integrated payroll, HR, benefits administration, and compliance support--especially those prioritizing IRS/DoL regulatory accuracy, multi-state tax filing, and bundled client support over deep AI-driven talent analytics or global HR capabilities.",
     websiteUrl: "https://www.adp.com",
     alternatives: ["paychex", "gusto", "trinet", "bamboohr"],
     scoreBreakdown: {features: 92, reviews: 87, momentum: 84, popularity: 95},
     userQuotes: [
       {
-        role: "HRIS总监",
-        company: "某全国性零售集团（约3500名员工）",
-        quote: "税务申报错误率下降明显，特别是跨州小时工的联邦与州级扣缴，现在基本无需人工复核。"
+        role: "HRIS Director",
+        company: "National Retail Group (3,500 employees)",
+        quote: "Tax filing error rates have dropped noticeably, especially for multi-state hourly employees' federal and state withholding--we basically no longer need manual review.",
       },
       {
-        role: "薪酬经理",
-        company: "某中型科技公司（约800人）",
-        quote: "和Vanguard的401(k)对接省去了每月手动导出导入，资金匹配延迟从平均2天缩短到实时。"
+        role: "Payroll Manager",
+        company: "Mid-Size Tech Company (800 employees)",
+        quote: "The Vanguard 401(k) integration eliminated our monthly manual import-export, cutting contribution matching delays from two days on average to real time.",
       },
       {
-        role: "HR运营负责人",
-        company: "某区域医疗系统（约1200人）",
-        quote: "ACA合规引擎帮我们把年度审计准备时间压缩了八成以上，但前期规则映射花了比预期多三周。"
+        role: "HR Operations Lead",
+        company: "Regional Health System (1,200 employees)",
+        quote: "The ACA compliance engine compressed our annual audit prep time by more than 80%, though the initial rule mapping took three weeks longer than expected.",
       },
     ],
   },
