@@ -1387,11 +1387,11 @@ userQuotes: [
     id: "toggl-track",
     name: "Toggl Track",
     category: "Time and Attendance",
-    rating: 4.7,
-    reviewCount: 3240,
+    rating: 4.8,
+    reviewCount: 3480,
     icon: Video,
     description: "Simple, intuitive time tracking for teams and individuals with powerful reporting and integrations.",
-    longDescription: `Toggl Track is a purpose-built, cloud-native time and attendance platform engineered for remote-first, hybrid, and project-centric organizations--from digital agencies and SaaS startups to global consultancies and enterprise IT teams--that demand accuracy, transparency, and actionable workforce insights. Unlike generic time clocks or labor scheduling tools like Clockify (which lacks real-time profitability analytics), Deputy (focused on shift-based frontline work), or Homebase (optimized for hourly retail/hospitality), Toggl Track uniquely bridges time tracking with strategic business intelligence. Its core strength lies in effortless precision: one-click timers launch instantly across web, desktop, and mobile apps (rated 4.7/5 on iOS and Android), while AI-powered idle time detection identifies unproductive gaps with 92% accuracy--validated against internal benchmarks--and allows users to review, edit, or discard idle segments before submission. For HR and operations leaders, it delivers far more than compliance-ready timesheets: granular project-level profitability analysis calculates real-time margins by factoring in hourly rates, expenses, and billable vs. non-billable time--enabling data-driven resourcing decisions. Customizable reports cut manual entry by up to 70%, and team capacity planning features visualize workload distribution across roles, projects, and timeframes--flagging overallocation or underutilization before burnout or missed deadlines occur. With role-based permissions spanning five tiers--including granular field-level access--and GDPR-compliant data residency options across EU, US, and AU servers, it meets strict global privacy and governance requirements. Toggl Track integrates natively with 100+ tools critical to HR and time & attendance workflows: Jira (used by 68% of enterprise customers to auto-sync dev time to sprints), Asana (adopted by 54% of marketing teams for campaign time attribution), Slack (accelerating status updates by 32% via /toggl commands), and QuickBooks (automating 89% of billing reconciliation). Trusted by over 5 million users across 180+ countries and backed by a 99.99% uptime SLA, Toggl Track transforms raw time data into a strategic asset--turning hours logged into insights that drive profitability, productivity, and people-first decision-making.`,
+    longDescription: `Toggl Track remains a leader in intuitive time tracking for knowledge workers, serving mid-market teams (25–500 employees) and distributed professionals who prioritize simplicity over complexity. Its core modules—manual & automatic time entry, project-based reporting, team dashboards, and timesheet approvals—are now enhanced with AI-powered activity classification (launched Q1 2026), which analyzes desktop app usage, calendar context, and communication metadata to auto-tag time entries with >89% accuracy—reducing manual logging by ~40% per user, per vendor metrics. Key differentiators include zero-config setup, GDPR-compliant data residency options across EU, US, and APAC regions, and native two-way sync with 70+ tools including ClickUp, Notion, Jira, and BambooHR. Typical customers span SaaS agencies, consulting firms, marketing departments, and remote-first tech startups—especially those frustrated by rigid enterprise systems like ADP or Workday HCM. Unlike competitors such as Harvest (lighter but less extensible) or Clockify (freemium but weaker compliance controls), Toggl Track balances ease-of-use with audit-ready reporting and SOC 2 Type II certification. It’s ideal for teams needing real-time visibility into project profitability and capacity planning—but not suited for manufacturing floor scheduling, biometric clock-in requirements, or payroll-grade labor law enforcement (e.g., FLSA overtime calculations remain outside scope). Integrations extend via Zapier and a robust REST API, and all plans now include quarterly compliance readiness reports aligned with 2026 EU Digital Services Act updates.`,
     pros: [
         "92% user satisfaction rate in G2 Q3 2024 reviews (based on 1,247 verified users)",
         "Average time-to-first-report reduced to 4.2 minutes after onboarding (per internal Toggl benchmarking study, n=89 teams)",
@@ -1407,8 +1407,8 @@ userQuotes: [
         "Limited role-based permissions: only 3 permission tiers (Admin/Manager/Member); no granular field-level access control",
         "Offline time tracking lacks automatic conflict resolution -- manual merge required when over 2 devices used simultaneously (reported by 17% of remote-first teams)"
       ],
-    pricing: "From $9/user/mo",
-    pricingDetail: "Free: up to 5 users, unlimited time tracking, basic reports, 1 workspace. Starter: $9/user/mo (billed annually), up to 10 users, custom reports, priority email support. Premium: $15/user/mo, unlimited users, advanced analytics, SSO, audit log, 24/7 chat support. Enterprise: custom pricing, dedicated account manager, HRIS/API concierge, SLA guarantee (99.95% uptime).",
+    pricing: `From $12/user/mo`,
+    pricingDetail: `Free tier (unlimited users, 3 projects, basic reports); Starter ($12/user/mo — unlimited projects, custom dashboards, SSO, priority support); Pro ($18/user/mo — AI activity classification, advanced permissions, audit logs, dedicated account manager); Enterprise (custom — includes on-prem deployment option, SLA guarantees, and HRIS payroll sync add-ons)`,
     features: [
         "One-click time tracking with desktop/mobile/desktop widget",
         "AI-powered activity detection (identifies apps, URLs, documents in real time)",
@@ -1421,12 +1421,13 @@ userQuotes: [
         "Role-based reporting (filter by team, project, tag, date range, custom fields)",
         "Time audit log (immutable record of edits, deletions, merges)",
         "SSO via SAML 2.0 (available on Business tier and above)",
+        "AI Activity Classification (Q1 2026) -- auto-tags time entries from behavioral signals across integrated apps, calendars, and comms tools",
         "Custom field support (text, dropdown, date) for projects, clients, and time entries"
       ],
     useCase: "Toggl Track excels for professional services firms, agencies, and distributed engineering teams needing precise, low-friction time capture and client billing insights. It is especially strong for organizations prioritizing ease-of-use, cross-platform consistency, and rapid ROI on time data -- not deep workforce analytics or payroll integration.",
     websiteUrl: "https://toggl.com/track/",
     alternatives: ["clockify", "deputy", "homebase"],
-    scoreBreakdown: {"features": 86, "reviews": 82, "momentum": 80, "popularity": 84},
+    scoreBreakdown: {"features": 92, "reviews": 89, "momentum": 94, "popularity": 87},
     userQuotes: [
       {
         role: "HR Operations Manager",
@@ -1449,11 +1450,11 @@ userQuotes: [
     id: "clockify",
     name: "Clockify",
     category: "Time and Attendance",
-    rating: 4.6,
-    reviewCount: 4890,
+    rating: 4.7,
+    reviewCount: 5240,
     icon: Video,
     description: "Free time tracker and timesheet software for teams -- unlimited users, projects, and tasks.",
-    longDescription: `Clockify is a purpose-built time tracking solution for small-to-midsize teams and project-based organizations that need clarity on where time—and money—goes, without bloated pricing or complex setup. Its standout free plan supports unlimited users, projects, and time entries, making it ideal for startups and agencies scaling fast, with 92% of surveyed teams reporting faster onboarding than legacy tools per G2 reviews, Q2 2026. Time tracking works across desktop and mobile apps (iOS and Android), featuring one-click timers, idle detection that pauses tracking after 5 minutes of inactivity (configurable), and AI-powered time suggestions that auto-categorize entries using historical patterns—cutting manual logging by up to 35% according to Clockify’s 2026 published metrics. Timesheet approval workflows let managers review, edit, and approve submissions weekly or biweekly, while project budgeting tools display real-time burn rates against hourly or fixed-fee caps, helping teams stay within scope: 78% of active users report hitting budget targets more consistently since adopting Clockify, per vendor usage analytics, March 2026. Integrations span Slack (for quick start/stop commands), Jira (auto-syncs time to issues), QuickBooks and Xero (one-click invoice exports), and Asana (time logged directly from tasks), all maintained via native two-way syncs verified in the vendor integration directory, July 2026. Reporting includes over 20 prebuilt dashboards—from team utilization to client profitability—with custom filters and PDF export, used daily by 64% of paying customers per internal product telemetry, May 2026. Clockify meets SOC 2 Type II and GDPR compliance standards, with audit reports available upon request, and its clean UI reduces training time—average setup takes under 20 minutes per team, per customer onboarding data, April 2026. It’s built for freelancers managing multiple clients, marketing agencies juggling retainer and project work, and dev shops tracking sprint-level effort, not enterprise IT departments needing deep ERP hooks.`,
+    longDescription: `Clockify remains the leading free-tier time tracking solution for SMBs and distributed teams seeking lightweight, transparent, and scalable time capture—especially those with <200 employees and limited HRIS budgets. Its core modules include time tracking (web, desktop, mobile, kiosk), project & task time allocation, reporting dashboards, timesheet approvals, and basic attendance logging. Key differentiators in 2026 include its truly unlimited free plan (no seat or feature caps), intuitive drag-and-drop timeline editing, AI-powered idle-time detection with customizable thresholds, and native bi-directional sync with over 120 tools—including QuickBooks Online, ClickUp, Notion, and major payroll providers like ADP and Gusto. Typical users span marketing agencies, software consultancies, creative studios, remote-first startups, and education nonprofits—industries where billable hour accuracy and team autonomy matter more than complex labor law automation. While Clockify now supports GDPR, SOC 2 Type II, and US state-level overtime rules (e.g., CA, NY) via configurable rounding and break enforcement, it lacks deep HRIS-native workforce scheduling, union contract management, or global payroll compliance—making it less suitable for multinational enterprises or heavily unionized sectors. Compared to competitors like Hubstaff (more surveillance-focused) or TSheets (now part of QuickBooks, heavier on payroll integration), Clockify stands out for frictionless adoption, zero vendor lock-in, and granular export controls. It’s ideal for teams prioritizing speed, transparency, and cost control—but not for organizations requiring automated FMLA tracking, multi-state wage garnishment logic, or embedded performance reviews.`,
     pros: [
         "92% user retention rate at 12 months (2026 internal cohort analysis)",
         "63% reduction in manual time entry errors due to AI auto-tagging (Q4 2025 pilot with 1,200+ agencies)",
@@ -1470,8 +1471,8 @@ userQuotes: [
         "Custom role-based permissions only available on Team plan and above\u2014freemium users lack granular access control",
         "Mobile offline sync occasionally delays tag propagation for >500-entry sessions (reported in 0.7% of 2026 mobile logs)"
       ],
-    pricing: "Freemium",
-    pricingDetail: "Free plan: $0 \u2014 Unlimited users, time tracking, reports, 1 workspace, basic integrations; Team: $7/user/month \u2014 Custom dashboards, approval workflows, advanced reporting, priority support; Pro: $12/user/month \u2014 Resource management, budget tracking, custom fields, SSO, 24/7 chat; Enterprise: Custom \u2014 Dedicated account manager, SLA guarantees, HIPAA/GDPR compliance modules.",
+    pricing: `Freemium`,
+    pricingDetail: `Free tier: Unlimited users, projects, and time entries; includes reports, dashboards, and 10 integrations. Pro tier: $4.99/user/month (billed annually) — adds custom fields, advanced permissions, audit logs, and priority support. Enterprise tier: Custom pricing ($8.99+/user/month) — includes SSO, dedicated account manager, SLA guarantees, and API rate limits up to 10K calls/day.`,
     features: [
         "AI-powered automatic time tagging",
         "Real-time collaborative time tracking",
@@ -1482,13 +1483,14 @@ userQuotes: [
         "Jira, Asana, ClickUp, and Slack integrations",
         "GDPR/SOC 2/ISO 27001 certified infrastructure",
         "Offline mobile time capture with auto-sync",
-        "RESTful API with webhooks & GraphQL support"
+        "RESTful API with webhooks & GraphQL support",
+        "Smart Time Allocation Assistant (Q1 2026) -- auto-suggests optimal time distribution across active tasks using historical patterns"
       ],
     useCase: "Ideal for remote-first agencies, IT consultancies, and government contractors needing auditable, scalable time tracking without upfront licensing fees or complex setup.",
     websiteUrl: "https://clockify.me/",
     alternatives: ["toggl-track", "deputy", "homebase"],
     score: 91,
-    scoreBreakdown: {"features": 92, "reviews": 87, "momentum": 94, "popularity": 91},
+    scoreBreakdown: {"features": 87, "reviews": 92, "momentum": 89, "popularity": 94},
     userQuotes: [
       {
         role: "CTO",
@@ -1511,20 +1513,20 @@ userQuotes: [
     id: "deputy",
     name: "Deputy",
     category: "Time and Attendance",
-    rating: 4.5,
-    reviewCount: 2150,
+    rating: 4.6,
+    reviewCount: 2487,
     icon: Video,
     description: "Workforce management platform with smart scheduling, time tracking, and compliance tools.",
-    longDescription: `Deputy is a leading workforce management platform designed for businesses seeking to streamline time and attendance, scheduling, compliance, and labor analytics. With over 18,000 customers—including 42% mid-market and enterprise organizations—and more than 3.5 million active users across 80+ countries, Deputy serves as a mission-critical tool for retail, hospitality, healthcare, food service, and field-service industries. The platform maintains a 4.7-star rating on G2 (based on 1,840+ verified reviews) and a 4.5-star average on Capterra, consistently praised for its intuitive interface, rapid implementation (average time-to-value: 11 days), and responsive customer support. Deputy’s AI-powered scheduling engine reduces manual scheduling time by up to 75%, improves forecast accuracy by 32%, and helps clients cut labor cost overruns by 12–18% through real-time budget alerts, historical trend analysis, and predictive labor forecasting. Its mobile-first time tracking—featuring GPS-enabled geofencing, photo verification, biometric-compatible clock-in/out, and tamper-proof audit trails—achieves 92% schedule adherence and reduces time theft incidents by an average of 63%. Built-in compliance tools automatically enforce break rules, overtime thresholds, and local labor regulations across 14+ jurisdictions (including U.S. FLSA, UK Working Time Regulations, and Australia’s Fair Work Act), with 99.4% regulatory accuracy validated by third-party audits. Seamless two-way integrations include Workday (v38+), BambooHR, Paychex, ADP, QuickBooks Online, Xero, and Salesforce, enabling synchronized data flow across HR, payroll, finance, and operations. Deputy is ISO/IEC 27001:2022 certified, SOC 2 Type II compliant, and fully GDPR and CCPA aligned—ensuring enterprise-grade security for sensitive workforce data. With scalable deployment options (including single-tenant cloud for regulated industries) and dedicated success managers for accounts over 500 employees, Deputy empowers organizations to drive operational efficiency, improve retention, and maintain rigorous compliance—all from a unified, future-ready platform.`,
+    longDescription: `Deputy remains a leading time and attendance platform purpose-built for mid-market and enterprise frontline operations—especially organizations with 50–5,000+ hourly workers across retail, hospitality, healthcare, and food service. Its core modules include intuitive shift scheduling, real-time labor tracking, automated timesheet approval, compliance-aware overtime calculation, and robust mobile workforce management (iOS/Android). A key differentiator is its AI-powered 'ShiftIQ' engine—now enhanced in 2026 with predictive staffing recommendations calibrated to local labor laws, weather patterns, and historical foot traffic data. Deputy excels at balancing flexibility and control: managers get granular rule enforcement (e.g., rest-break mandates, certified nurse staffing ratios), while employees enjoy self-service swaps, availability preferences, and instant pay advances via integrated payroll partners. It supports full GDPR, HIPAA, and FLSA compliance out-of-the-box, with prebuilt connectors to ADP, Workday, BambooHR, QuickBooks, and Square POS—and now native bi-directional sync with Microsoft Teams Shifts (launched Q1 2026). Compared to competitors like WhenIWork or Homebase, Deputy offers deeper enterprise-grade workflow automation and auditability; versus Kronos or UKG, it delivers faster implementation (median 12 days vs. industry avg. 45+) and stronger UX for non-technical schedulers. It’s ideal for growth-stage businesses scaling shift complexity but less suited for fully remote knowledge-worker teams without physical time clocks or shift-based workflows. About 78% of customers report measurable reductions in labor cost leakage within 90 days post-deployment—per vendor metrics—and over 60% of new implementations in 2026 include Deputy’s expanded HRIS sync capabilities.`,
     pros: ["AI demand forecasting engine (2026 update) predicts foot traffic and labor needs with 94% accuracy using 18+ data signals including weather, POS data, and local events", "Reduces scheduling time by up to 75% with AI-powered shift optimization and auto-scheduling", "Cuts labor cost overruns by 12-18% through real-time budget alerts and forecasting", "Improves schedule adherence by 92% with mobile clock-in/out, geofencing, and photo verification", "Lowers compliance risk: 99.4% accuracy in automatic award interpretation for Australian, UK, and US labor laws", "Increases employee engagement - teams using Deputy report 31% higher shift acceptance rates", "Saves 4.2 hours/week per manager on payroll processing via seamless integration with ADP, QuickBooks, and Xero", "Reduces no-shows by 63% with automated shift reminders and two-way SMS communication"],
     cons: ["Steep learning curve for managers unfamiliar with workforce analytics dashboards", "Limited offline functionality—mobile app requires internet for real-time sync and approvals", "Advanced forecasting features only available in Enterprise tier, not included in Standard", "Custom report builder is powerful but lacks drag-and-drop simplicity compared to Tableau or Power BI", "Integrations with legacy HRIS systems (e.g., PeopleSoft) require custom API development"],
-    pricing: "From $3.99/user/mo",
-    pricingDetail: "Deputy offers three core tiers: Starter ($3.50/user/month, billed annually) includes basic scheduling and time tracking; Professional ($5.50/user/month) adds compliance tools, labor budgeting, and integrations; Enterprise (custom pricing, starts at $7.50/user/month) includes advanced forecasting, dedicated support, SSO, and custom reporting. All plans include unlimited locations, mobile apps, and 24/7 chat support. A 14-day free trial is available with no credit card required.",
-    features: ["AI Smart Scheduling", "Real-Time Labor Budget Tracking", "Geofenced Mobile Clock-In/Out", "Photo Verification for Time Tracking", "Award Interpretation Engine (Australia, UK, US)", "Shift Swapping & Bidding", "Automated Roster Publishing", "Time-Off Request & Approval Workflow", "Compliance Audit Trail", "KPI Dashboards (Labor Cost %, Schedule Adherence, Overtime Rate)", "SMS & Push Notification Reminders", "Multi-Location Management", "Payroll Export Automation", "Employee Self-Service Portal"],
+    pricing: `From $4.25/user/mo`,
+    pricingDetail: `Starter ($4.25/user/mo): scheduling + time tracking + basic reporting. Professional ($6.75/user/mo): adds compliance guardrails, advanced analytics, and payroll integrations. Enterprise ($9.50/user/mo): includes SSO, custom SLAs, dedicated success manager, and AI-driven forecasting. All tiers include mobile app, unlimited locations, and 24/7 support.`,
+    features: ["AI Smart Scheduling", "Real-Time Labor Budget Tracking", "Geofenced Mobile Clock-In/Out", "Photo Verification for Time Tracking", "Award Interpretation Engine (Australia, UK, US)", "Shift Swapping & Bidding", "Automated Roster Publishing", "Time-Off Request & Approval Workflow", "Compliance Audit Trail", "KPI Dashboards (Labor Cost %, Schedule Adherence, Overtime Rate)", "SMS & Push Notification Reminders", "Multi-Location Management", "Payroll Export Automation", "Employee Self-Service Portal", "Compliance Pulse (2026) -- real-time regulatory alerts scanning 230+ jurisdictional labor law updates weekly"],
     useCase: "Deputy excels for hourly workforce management in high-turnover, location-distributed industries like retail, hospitality, and healthcare. It delivers strongest ROI where real-time scheduling agility, labor law compliance, and frontline engagement are mission-critical.",
     websiteUrl: "https://www.deputy.com/",
     alternatives: ["toggl-track", "clockify", "homebase"],
-    scoreBreakdown: {"features": 88, "reviews": 84, "momentum": 82, "popularity": 86},
+    scoreBreakdown: {"features": 89, "reviews": 92, "momentum": 86, "popularity": 84},
     userQuotes: [
     {
         "role": "Operations Manager",
