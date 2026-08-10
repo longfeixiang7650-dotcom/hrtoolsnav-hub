@@ -113,7 +113,8 @@ const CATEGORY_SLUGS = [
 export async function GET() {
   const baseUrl = "https://hrtoolsnav.net";
 
-  const urls: string[] = [];
+  const urls: string[] = [  "hr-automation-priorities-2026-where-to-apply-it-first",
+];
 
   urls.push(`<url><loc>${baseUrl}</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>`);
   urls.push(`<url><loc>${baseUrl}/blog</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>`);
