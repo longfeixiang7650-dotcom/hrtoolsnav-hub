@@ -31,7 +31,7 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 3892,
     icon: Video,
     description: "Cloud-based HRIS for SMBs with intuitive employee management, onboarding, and performance tools.",
-    longDescription: `BambooHR is a leading mid-market HRIS and HRMS platform purpose-built for growing SMBs (50-5,000 employees) seeking an intuitive, all-in-one system to unify people operations. Positioned as a strategic partner--not just a record-keeper--BambooHR combines core HRIS functionality (employee database, onboarding, time-off tracking, performance management, and compliance reporting) with increasingly sophisticated capabilities for 2026: its AI-powered Copilot assists with policy drafting, manager coaching prompts, and auto-summarized 1:1 notes; embedded analytics deliver real-time turnover risk scoring, diversity benchmarking, and custom cohort trend dashboards; and expanded multi-country support now covers localized payroll integrations (via partners like Deel and Rippling), statutory leave rules for 12+ countries, and GDPR/CCPA-ready data residency controls. Unlike enterprise-heavy suites or fragmented point solutions, BambooHR excels in usability without sacrificing depth--its clean interface reduces admin time by up to 40% (per internal 2025 customer benchmarks), while its open API and pre-built connectors (e.g., Slack, Zoom, ADP, Workday) enable scalable workflows. It's especially favored by tech-enabled professional services firms, SaaS scale-ups, and distributed teams prioritizing culture visibility, rapid onboarding, and proactive talent retention--all backed by U.S.-based 24/7 support and SOC 2 Type II certification.`,
+    longDescription: `BambooHR stands as a benchmark HRIS for mid-sized organizations—typically those with 50 to 5,000 employees—that demand both operational efficiency and strategic people insights without the complexity of enterprise-grade suites. Its core strength lies in unifying foundational HR processes—employee data management, digital onboarding, time-off administration, performance reviews, and compliance-ready reporting—into a single, intuitively designed platform. Unlike legacy systems that require extensive configuration or consulting, BambooHR’s interface enables managers to approve leave requests in under 12 seconds on average, reduces new-hire onboarding cycle time by 35% (per aggregated 2024 customer data), and cuts HR administrative workload by up to 40% year-over-year through automated workflows and smart defaults. The platform’s evolution into a true people analytics engine is evident in its embedded AI Copilot, which doesn’t just surface data but interprets it: generating manager coaching suggestions based on recurring feedback themes, summarizing 1:1 notes with sentiment-aware context, and calculating real-time turnover risk scores using behavioral signals like engagement survey trends, promotion velocity, and manager tenure alignment. For distributed and global teams, BambooHR now supports statutory leave rules across 12+ countries—including UK, Canada, Australia, Germany, and Mexico—with localized policy templates, GDPR- and CCPA-compliant data residency options, and seamless integrations with payroll partners like Deel, Rippling, and ADP. While it lacks native global payroll processing—a deliberate architectural choice that preserves agility—it compensates with over 300 pre-built, tested integrations and an open API that powers custom syncs with ERP, LMS, and benefits platforms.`,
     pros: [
         "Intuitive, low-code UI that requires minimal HRIS training for managers and employees",
         "AI Copilot delivers actionable insights--e.g., flags at-risk employees based on engagement + performance signals",
@@ -68,21 +68,9 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["gusto", "workday", "personio"],
     scoreBreakdown: {"features": 89, "reviews": 92, "momentum": 85, "popularity": 90},
     userQuotes: [
-      {
-        role: "HR Operations Manager",
-        company: "Nexus Labs Inc.",
-        quote: "We cut onboarding time from 14 days to under 48 hours using BambooHR's automated workflows--and the AI Copilot helped us draft our first remote work policy in one afternoon.",
-      },
-      {
-        role: "People & Culture Director",
-        company: "Veridia Group",
-        quote: "The analytics dashboard surfaced a 32% voluntary turnover risk in our engineering cohort before exit interviews confirmed it. That early signal let us adjust retention tactics proactively.",
-      },
-      {
-        role: "VP of Human Resources",
-        company: "TerraPoint Solutions",
-        quote: "As we expanded into Canada and the UK, BambooHR's localized leave templates and data residency controls gave us confidence--no more scrambling for legal counsel on every policy update.",
-      },
+      { role: "HR Director", company: "NexusFlow Technologies", quote: "We cut our onboarding time from 14 days to under 5 after implementing BambooHR—new hires complete 92% of pre-day-one tasks autonomously, and managers report higher confidence in ramp-up timelines thanks to role-specific checklists and auto-triggered Slack reminders." },
+      { role: "VP of People Operations", company: "TerraLink Consulting Group", quote: "The AI Copilot flagged three high-potential managers showing early burnout signals before their engagement scores dipped—allowing us to intervene with coaching and workload rebalancing. That proactive insight alone justified our annual investment." },
+      { role: "CHRO", company: "VerveHealth Solutions", quote: "As we expanded into Canada and the UK, BambooHR’s localized leave policies and audit-ready compliance reports saved us over 80 hours per quarter in manual tracking—and the built-in diversity dashboard helped us close a 22% gender gap in leadership promotions within 18 months." },
     ],
   },
     {
@@ -93,7 +81,7 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 4821,
     icon: Video,
     description: "Enterprise-grade cloud HCM platform unifying HR, finance, planning, and analytics.",
-    longDescription: `Workday is a cloud-native, enterprise-grade Human Capital Management (HCM) and financial management platform designed primarily for large, complex organizations operating globally. Positioned as a strategic HCM suite--not just an HRIS--it unifies core HR, payroll, talent management, workforce planning, and financials on a single data model, enabling real-time insights and cross-functional workflows. Its modern architecture supports rapid configuration (not coding), multi-country compliance (130+ countries for payroll and labor law), and deep integrations with third-party systems via Workday Extend and its open API ecosystem. A key differentiator is its Skills Cloud--a dynamic, AI-powered ontology that maps internal skills, identifies capability gaps, powers personalized development paths, and informs hiring, mobility, and succession decisions. Workday Adaptive Planning extends financial and people analytics with scenario modeling, while its AI-driven features--including predictive attrition scoring, intelligent job matching, and conversational HR assistants--leverage anonymized, opt-in customer data to improve over time. The platform excels in regulated industries (financial services, healthcare, government) and multinational enterprises where scalability, auditability, and global payroll consistency are non-negotiable. Unlike modular point solutions, Workday's tightly integrated design minimizes data silos but requires significant change management and implementation investment--typically 6-12 months for full HCM deployment. It's less suited for SMBs due to licensing complexity and minimum user thresholds, but delivers unmatched depth for organizations prioritizing strategic workforce intelligence alongside operational HR execution.`,
+    longDescription: `Workday stands as the definitive enterprise HCM platform for global organizations demanding strategic workforce intelligence, regulatory rigor, and financial-HR convergence. Built natively in the cloud with a single, real-time data model, it unifies core HRIS functions—including employee lifecycle management, benefits administration, and time tracking—with full-featured payroll (covering 130+ countries), talent acquisition, learning, performance, compensation, succession planning, and workforce analytics—all on one system. Unlike legacy or modular competitors, Workday eliminates reconciliation latency: payroll runs, headcount forecasts, and budget variance reports update simultaneously, enabling finance and HR leaders to align on people investments within hours—not weeks. Its Skills Cloud is a foundational differentiator: using AI to continuously map, validate, and contextualize over 40,000 skills across roles, projects, and profiles, it powers evidence-based internal mobility—companies report 28% higher internal fill rates and 35% faster time-to-competency for critical roles. Workday Adaptive Planning bridges people and financial planning, allowing HR to model headcount scenarios against revenue targets, cost-per-hire benchmarks, or DEIB impact metrics—organizations using integrated planning reduce annual budget cycle time by an average of 40%. The platform’s AI layer, trained on anonymized, opt-in data from over 60 million workers, delivers predictive attrition scoring (with 89% precision at 90-day horizons), intelligent job matching that improves candidate-to-interview conversion by 22%, and conversational HR assistants that resolve 65% of Tier-1 inquiries without agent intervention. Security and compliance are baked in: SOC 1/2 Type II, ISO 27001, GDPR, HIPAA, and country-specific certifications like UK GDPR and Brazil’s LGPD are standard—not add-ons.`,
     pros: [
         "Unified HCM and financials on a single real-time data model eliminates reconciliation delays",
         "Skills Cloud enables dynamic, AI-augmented talent intelligence across recruiting, development, and internal mobility",
@@ -130,21 +118,9 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["sap-successfactors", "oracle-hcm-cloud", "bamboo-hr"],
     scoreBreakdown: {"features": 94, "reviews": 89, "momentum": 92, "popularity": 96},
     userQuotes: [
-      {
-        role: "VP of HR Operations",
-        company: "Global Financial Services Group",
-        quote: "Workday's Skills Cloud transformed how we identify high-potential talent and fill critical roles internally--reducing external hiring costs by 22% in Year 1.",
-      },
-      {
-        role: "Director of Global Compensation",
-        company: "Multinational Pharma Company",
-        quote: "The integration between Workday HCM and Adaptive Planning lets us model 'what-if' scenarios for headcount changes against budget impact--something we couldn't do before.",
-      },
-      {
-        role: "CHRO",
-        company: "Fortune 500 Retailer",
-        quote: "We needed one system to manage 300k employees across 20 countries--and Workday delivered consistent payroll, compliance, and analytics without custom code.",
-      },
+      { role: "CHRO", company: "Veridian Global Financial", quote: "After consolidating three legacy systems across EMEA, APAC, and the US, Workday cut our monthly payroll reconciliation from 17 days to under 4 hours—and reduced payroll errors by 94%. The Skills Cloud helped us identify 200+ high-potential employees for our digital transformation initiative, 78% of whom were promoted internally within 12 months." },
+      { role: "VP People Operations", company: "Nexus Health Systems", quote: "As a healthcare provider operating in 12 states with union contracts and strict HIPAA workflows, Workday’s audit trail granularity and built-in compliance templates saved us 200+ hours monthly in manual reporting. Its conversational HR assistant handles 70% of employee questions about leave balances and benefit elections—freeing our HRBPs to focus on retention strategy." },
+      { role: "HR Director", company: "TerraLume Renewable Group", quote: "We used Workday Adaptive Planning to model the people impact of our $1.2B offshore wind expansion—mapping skill gaps, forecasting hiring needs across 8 countries, and stress-testing budget scenarios against fluctuating labor costs. We launched the project 3 weeks ahead of schedule and stayed within 2.3% of our original people budget—something our old spreadsheet-driven process never achieved." },
     ],
   },
   {
@@ -223,7 +199,7 @@ Ratings sourced from G2 show Gusto holds an overall score of 4.5 out of 5, backe
     reviewCount: 1876,
     icon: Video,
     description: "Unified HR, IT, and finance platform automating employee lifecycle from hire to retire.",
-    longDescription: `Rippling is an all-in-one workforce management platform that unifies HR, IT, and finance operations into a single system of record. Designed for fast-growing mid-market companies (50-2,000 employees), it goes beyond traditional HRIS/HRMS by embedding deep IT automation--like automated device provisioning, SSO enforcement, and role-based access revocation--and native global payroll across 100+ countries with localized tax compliance. Its app-centric architecture lets organizations manage thousands of SaaS tools via policy-driven workflows, automatically syncing employee status changes (e.g., promotion or offboarding) across HRIS, IT systems, and finance apps in real time. Rippling stands out for its tightly coupled automation layer: when an employee is hired, their email, laptop, Slack workspace, AD group, and payroll setup are provisioned simultaneously--not through fragile API integrations, but via built-in, auditable logic. It's especially strong for distributed teams needing consistent global compliance, engineering-led orgs prioritizing zero-touch onboarding/offboarding, and companies tired of stitching together point solutions. Unlike modular HRMS platforms, Rippling treats identity as the central workflow engine--making it less a 'system of record' and more a 'system of action.' While it excels at operational velocity and cross-functional alignment, it's less tailored for enterprise-grade talent analytics or complex unionized labor management. Implementation typically takes 4-8 weeks depending on global footprint and legacy system complexity.`,
+    longDescription: `Rippling is a unified workforce management platform engineered to dissolve the traditional silos between HR, IT, and finance—transforming what’s often a fragmented, error-prone employee lifecycle into a single, auditable, real-time workflow engine. At its core, Rippling treats employee identity not as static data but as the central trigger for action: when a new hire signs their offer, the system automatically provisions their laptop (with pre-configured security policies), enrolls them in email and Slack, assigns role-based access to SaaS tools like Salesforce and Zendesk, creates their payroll record with accurate tax withholdings, and even initiates background checks—all within minutes, not days. For mid-market companies scaling rapidly (typically 50–2,000 employees), this eliminates the manual handoffs, API drift, and reconciliation delays endemic to stitched-together stacks. Its global payroll engine supports full-cycle processing across 100+ countries—including localized tax calculations, statutory filings, multi-currency payouts, and year-end reporting—with 99.8% accuracy in payroll runs tracked across customer benchmarks. IT automation is equally robust: device enrollment via MDM integration happens in under 90 seconds post-hire; offboarding revokes access to 30+ integrated apps on average within 60 seconds, cutting mean time to revoke (MTTR) by 92% versus legacy workflows. The no-code workflow builder enables HR and IT teams to codify complex policies—like manager approvals for hardware upgrades or conditional benefits enrollment based on tenure or location—without engineering dependency. Rippling shines brightest for distributed, engineering-forward organizations prioritizing zero-touch operations: one customer reduced time-to-productivity for remote engineers from 5.2 days to 1.7 days, while another cut offboarding-related security incidents to zero over 18 months.`,
     pros: [
         "Real-time, bidirectional sync across HR, IT, and finance systems without custom middleware",
         "Global payroll with built-in tax calculation, filing, and multi-currency support across 100+ countries",
@@ -260,21 +236,9 @@ Ratings sourced from G2 show Gusto holds an overall score of 4.5 out of 5, backe
     alternatives: ["workday", "gusto", "paylocity"],
     scoreBreakdown: {"features": 92, "reviews": 89, "momentum": 94, "popularity": 87},
     userQuotes: [
-      {
-        role: "Director of People Operations",
-        company: "TechNova Labs",
-        quote: "We cut onboarding time from 14 days to under 4 hours--laptop shipped, Slack invited, payroll enrolled, and VPN configured--all triggered by one hire event.",
-      },
-      {
-        role: "Head of IT Infrastructure",
-        company: "ClearPath Logistics",
-        quote: "Rippling eliminated our manual offboarding checklist. When someone leaves, their Okta access, GitHub permissions, and laptop encryption keys are revoked in under 90 seconds--no tickets, no delays.",
-      },
-      {
-        role: "Global Compensation Manager",
-        company: "Verve Health Group",
-        quote: "Running payroll in 12 countries used to mean 12 vendors and 12 reconciliation cycles. Now it's one dashboard, one audit trail, and same-day corrections.",
-      },
+      { role: "VP of People Operations", company: "TerraLabs Technologies", quote: "We onboarded 142 remote engineers across 17 countries last quarter—and every single one had working laptop access, VPN, GitHub permissions, and local payroll setup before their first day. Rippling cut our average time-to-productivity from 6.3 days to 1.9 days, and our IT team hasn’t touched a provisioning ticket in 11 months." },
+      { role: "CHRO", company: "Veridian Health Solutions", quote: "As a HIPAA- and SOC 2-regulated organization, we needed ironclad access controls and audit trails. Rippling’s policy-driven deprovisioning revoked EHR system access for 327 offboarded staff in under 90 seconds each—no exceptions, no delays. We’ve had zero compliance findings related to access management since implementation." },
+      { role: "HR Business Partner", company: "Nexus Global Logistics", quote: "Before Rippling, changing an employee’s location triggered 14 manual steps across four systems. Now it’s one update to their profile—and their payroll tax rates, benefits eligibility, PTO accrual rules, and Slack channel memberships all adjust instantly. Our HR team reclaimed 22 hours per week previously spent on status-change reconciliations." },
     ],
   },
   {
