@@ -62,6 +62,9 @@ const BLOG_SLUGS = [
   "employee-experience-data-driven-strategy-2026",
   "peo-vs-in-house-hr-2026-co-employment-guide",
   "total-rewards-statements-2026-retention-engine",
+  "employee-offboarding-experience-hr-tech-2026",
+  "rise-of-skills-based-organizations-hr-tech-2026",
+  "succession-planning-software-2026",
 ] as const;
 
 const TOOL_SLUGS = [
